@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-46",
+      "version": "0.1.46",
+      "date": "2026-10-02",
+      "headline": "v0.1.46 — Hound Targeting Fix",
+      "summary": "Enemy Tracker now follows the Hound's animated body center, making visible-body aiming work reliably from every direction.",
+      "categories": [
+        {
+          "name": "Hound",
+          "changes": [
+            "Enemy Tracker now targets the Hound's visible body center as it moves and turns.",
+            "Aiming at the visible Hound body now works from the front, both sides, and the rear."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-45",
       "version": "0.1.45",
       "date": "2026-10-02",
