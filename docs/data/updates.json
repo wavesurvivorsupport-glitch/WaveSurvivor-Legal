@@ -1,6 +1,28 @@
 {
   "updates": [
     {
+      "id": "v0-1-37",
+      "version": "0.1.37",
+      "date": "2026-10-01",
+      "headline": "v0.1.37 — Offline Story Spawn Regions",
+      "summary": "Offline Story enemies and Healer Hearts now use the authored spawn areas for each Core location, with improved Boss arena add placement.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "Explore and Core defense enemies now spawn from authored region volumes, with separate spawn groups for each Blue and Green Core location.",
+            "Healer Hearts now appear within the authored Heart areas for the active Story region."
+          ]
+        },
+        {
+          "name": "Boss",
+          "changes": [
+            "Boss1 begins with a small protective pack; later adds enter from the full Blue spawn pool and can pass through the arena blockers while players and Boss1 remain contained."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-36",
       "version": "0.1.36",
       "date": "2026-10-01",
