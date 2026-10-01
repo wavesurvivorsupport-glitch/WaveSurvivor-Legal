@@ -8,7 +8,7 @@ The home, Media, Support and Updates shells are generated from fragments/*.html 
 
 ## Publish patch notes
 
-`docs/data/updates.json` is the only patch-note source. The site builder generates the homepage preview, newest-first Updates index, a permanent HTML page for each note, the sitemap, and `docs/updates.xml` from that one file. Historical notes were migrated from the former in-game catalog; their change strings are preserved in the JSON. Publish only verified player-facing changes.
+`docs/data/updates.json` is the public website source. The site builder generates the homepage preview, newest-first Updates index, a permanent HTML page for each note, the sitemap, and `docs/updates.xml` from that one file. Every versioned release must also be added to the game's `Assets/scripts/Resources/UI/Menu/PatchNotes.json` catalog. Keep the version, date, and player-facing changes consistent between both feeds. Publish only verified player-facing changes. Do not create Steam notes unless explicitly requested.
 
 For the next release:
 
@@ -34,7 +34,7 @@ Example entry (replace every example value with a real public update):
 
 Required fields: a unique lowercase `id` using letters, numbers, and hyphens; `headline`; `summary`; and at least one category with a name and nonempty `changes` list. Include `version` and an ISO `date` whenever known. Omit or use `null` for a genuinely unknown historical version/date; never guess one. `image` and `imageAlt` are optional together. Keep change descriptions complete. Each article URL is `/updates/<id>.html`; never reuse an existing id for a different note.
 
-The public RSS feed at `/updates.xml` is generated from the same JSON. Services such as PatchBot can use the feed if their current product supports that URL and format; configure such a service only after checking its official requirements. The game no longer contains a Patch Notes menu or catalog. Its displayed build version comes from Unity's application version and is changed only as part of a deliberate game release.
+The public RSS feed at `/updates.xml` is generated from the same JSON. Services such as PatchBot can use the feed if their current product supports that URL and format; configure such a service only after checking its official requirements. The game's Main Menu also contains a Patch Notes page. Its displayed build version comes from Unity's application version and is changed only as part of a deliberate game release.
 
 ## Add media
 
