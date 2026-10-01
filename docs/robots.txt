@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /WaveSurvivor-Legal/
+Sitemap: https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/sitemap.xml
