@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-44",
+      "version": "0.1.44",
+      "date": "2026-10-02",
+      "headline": "v0.1.44 — Offline Story Explore Pacing",
+      "summary": "Offline Story's opening Explore advances through six authored 10-enemy batches when two or fewer enemies from the current batch remain. The HUD now shows only EXPLORE.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "Opening Explore advances to the next authored region after its 10-enemy batch is issued and no more than two members of that batch remain alive.",
+            "Earlier Explore enemies can remain alive without affecting the active batch's progress.",
+            "The Explore HUD no longer shows a kill counter."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-40",
       "version": "0.1.40",
       "date": "2026-10-02",
