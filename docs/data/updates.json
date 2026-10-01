@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-36",
+      "version": "0.1.36",
+      "date": "2026-10-01",
+      "headline": "v0.1.36 — Playtest Mode Access",
+      "summary": "Story Offline remains playable while Online and Endless are clearly marked under construction in the menu.",
+      "categories": [
+        {
+          "name": "Menu",
+          "changes": [
+            "Online and Endless now display Under Construction ribbons and cannot be selected during this development phase.",
+            "Story Offline remains available for playtesting."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-35",
       "version": "0.1.35",
       "date": "2026-10-01",
