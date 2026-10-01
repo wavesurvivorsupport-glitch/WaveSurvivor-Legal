@@ -7,6 +7,7 @@ DOCS = ROOT / "docs"
 BASE = "https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/"
 STEAM = "https://store.steampowered.com/app/5170710/WaveSurvivor/"
 EMAIL = "wavesurvivor.support@gmail.com"
+ASSET_VERSION = "20261001a"
 
 
 def page(title, description, url, prefix, content, current):
@@ -31,7 +32,7 @@ def page(title, description, url, prefix, content, current):
   <title>{escape(title)} | WaveSurvivor</title>
   <link rel="canonical" href="{canonical}">
   <link rel="icon" href="{prefix}assets/favicon.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="{prefix}assets/site.css">
+  <link rel="stylesheet" href="{prefix}assets/site.css?v={ASSET_VERSION}">
   <meta property="og:type" content="website"><meta property="og:site_name" content="WaveSurvivor">
   <meta property="og:title" content="{escape(title, quote=True)} | WaveSurvivor">
   <meta property="og:description" content="{escape(description, quote=True)}">
@@ -41,7 +42,7 @@ def page(title, description, url, prefix, content, current):
   <meta name="twitter:title" content="{escape(title, quote=True)} | WaveSurvivor">
   <meta name="twitter:description" content="{escape(description, quote=True)}">
   <meta name="twitter:image" content="{BASE}assets/og-card.png">
-  <script defer src="{prefix}assets/site.js"></script>
+  <script defer src="{prefix}assets/site.js?v={ASSET_VERSION}"></script>
 </head>
 <body>
   <a class="skip" href="#main">Skip to content</a>

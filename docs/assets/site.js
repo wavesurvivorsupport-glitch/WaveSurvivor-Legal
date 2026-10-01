@@ -33,14 +33,42 @@
 
   const scenes = [...document.querySelectorAll('.scene-step')];
   const screen = document.querySelector('.scene-screen');
+  let setSceneSlots = () => {};
   if (screen && scenes.length) {
+    let activeScene = scenes[0];
+    let sceneSlots = {};
+    const updateSceneImage = () => {
+      const config = sceneSlots[activeScene.dataset.scenePath];
+      let image = screen.querySelector('.scene-image');
+      if (!config || !config.src || !config.alt) {
+        if (image) image.remove();
+        screen.classList.remove('has-media');
+        screen.setAttribute('role', 'img');
+        screen.setAttribute('aria-label', 'Changing concept panel reserved for real environmental and gameplay captures');
+        return;
+      }
+      if (!image) {
+        image = document.createElement('img');
+        image.className = 'slot-image scene-image';
+        image.loading = 'lazy';
+        screen.prepend(image);
+      }
+      if (image.getAttribute('src') !== root + config.src) image.src = root + config.src;
+      image.alt = config.alt;
+      screen.classList.add('has-media');
+      screen.removeAttribute('role');
+      screen.removeAttribute('aria-label');
+    };
+    setSceneSlots = slots => { sceneSlots = slots; updateSceneImage(); };
     const activate = step => {
+      activeScene = step;
       scenes.forEach(item => item.classList.toggle('is-active', item === step));
       screen.dataset.scene = step.dataset.scene;
       const label = screen.querySelector('[data-scene-label]');
       const title = screen.querySelector('[data-scene-title]');
       if (label) label.textContent = step.dataset.sceneLabel;
       if (title) title.textContent = step.dataset.sceneTitle;
+      updateSceneImage();
     };
     activate(scenes[0]);
     if ('IntersectionObserver' in window) {
@@ -134,6 +162,7 @@
   if (gallery || mediaSlots.length || trailerSlot) {
     fetchData('data/media.json').then(data => {
       const slots = data.slots || {};
+      setSceneSlots(slots);
       mediaSlots.forEach(slot => {
         const config = slots[slot.dataset.assetPath];
         if (!config || !config.src || !config.alt) return;

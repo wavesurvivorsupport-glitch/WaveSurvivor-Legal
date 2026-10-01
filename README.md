@@ -31,6 +31,7 @@ docs/data/media.json drives the gallery and media slots. Upload only authentic s
 
 - Add a gallery item to items with src, descriptive alt, caption, width and height.
 - To replace a labeled layout slot, add an entry to slots keyed by its data-asset-path, with src and alt.
+- The scroll sequence reads the same slots map using the data-scene-path values in fragments/home.html. Its first two scenes reuse the Story images; the third uses endless-wave.webp.
 - To publish a trailer, set trailer to an object with src, optional poster, and label. The Media page will use a native video player. Keep video files small enough for static hosting and prefer a properly optimized MP4.
 
 See ASSET_REQUESTS.md for exact filenames and recommended sizes.
