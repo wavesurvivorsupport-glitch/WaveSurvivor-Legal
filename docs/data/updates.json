@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-38",
+      "version": "0.1.38",
+      "date": "2026-10-02",
+      "headline": "v0.1.38 — Offline Story Core Travel and Spawn Fixes",
+      "summary": "Core travel now preserves DPS passive timing, defense enemies follow the selected Core's spawn region, and Archive Cores appear at their intended size and placement.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "DPS passive timing now pauses during Core travel and resumes when defense begins.",
+            "Core defense enemies now spawn from the selected Core's authored region volumes.",
+            "Archive Cores now use the intended size and exact authored marker placement."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-37",
       "version": "0.1.37",
       "date": "2026-10-01",
