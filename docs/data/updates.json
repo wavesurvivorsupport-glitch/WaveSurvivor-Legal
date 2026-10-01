@@ -1,6 +1,21 @@
 {
   "updates": [
     {
+      "id": "v0-1-45",
+      "version": "0.1.45",
+      "date": "2026-10-02",
+      "headline": "v0.1.45 — Tighter DPS Primary-Fire Spread",
+      "summary": "DPS primary-fire projectiles now spread less, with matching aim indicators for every shot.",
+      "categories": [
+        {
+          "name": "DPS",
+          "changes": [
+            "Reduced the spread of multi-projectile DPS primary fire while keeping each shot direction aligned with its crosshair indicator."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-44",
       "version": "0.1.44",
       "date": "2026-10-02",
