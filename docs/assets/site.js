@@ -90,71 +90,11 @@
     reveal.forEach(item => observer.observe(item));
   } else reveal.forEach(item => item.classList.add('is-visible'));
 
-  const text = (tag, value, className) => {
-    const element = document.createElement(tag);
-    element.textContent = value;
-    if (className) element.className = className;
-    return element;
-  };
   const fetchData = async path => {
     const response = await fetch(root + path);
     if (!response.ok) throw new Error('Data unavailable');
     return response.json();
   };
-
-  const latest = document.querySelector('[data-latest-update]');
-  const list = document.querySelector('[data-updates-list]');
-  const article = document.querySelector('[data-update-article]');
-  if (latest || list || article) {
-    fetchData('data/updates.json').then(data => {
-      const updates = Array.isArray(data.updates) ? data.updates : [];
-      updates.sort((a, b) => String(b.date).localeCompare(String(a.date)));
-      if (latest && updates.length) {
-        const item = updates[0];
-        latest.replaceChildren(text('p', `${item.version} / ${item.date}`, 'overline'), text('h3', item.headline), text('p', item.summary));
-        const link = text('a', 'Read update →', 'text-link');
-        link.href = root + 'updates/article.html?id=' + encodeURIComponent(item.id);
-        latest.append(link);
-      }
-      if (list && updates.length) {
-        list.replaceChildren();
-        updates.forEach(item => {
-          const card = text('article', '', 'update-card');
-          const date = text('div', `${item.version} / ${item.date}`, 'version');
-          const body = document.createElement('div');
-          body.append(text('h2', item.headline), text('p', item.summary));
-          const link = text('a', 'Read update →');
-          link.href = root + 'updates/article.html?id=' + encodeURIComponent(item.id);
-          card.append(date, body, link);
-          list.append(card);
-        });
-      }
-      if (article) {
-        const id = new URLSearchParams(location.search).get('id');
-        const item = updates.find(entry => entry.id === id);
-        if (!item) return;
-        article.replaceChildren(text('p', `${item.version} / ${item.date}`, 'eyebrow'), text('h1', item.headline), text('p', item.summary, 'lead'));
-        document.title = `${item.headline} | WaveSurvivor Updates`;
-        (item.categories || []).forEach(category => {
-          article.append(text('h2', category.name));
-          const ul = document.createElement('ul');
-          (category.changes || []).forEach(change => ul.append(text('li', change)));
-          article.append(ul);
-        });
-        if (item.image) {
-          const img = document.createElement('img');
-          img.src = root + item.image;
-          img.alt = item.imageAlt || '';
-          img.loading = 'lazy';
-          img.style.maxWidth = '100%';
-          article.append(img);
-        }
-      }
-    }).catch(() => {
-      if (latest) latest.replaceChildren(text('p', 'Public update notes are temporarily unavailable.'));
-      if (list) list.replaceChildren(text('p', 'Public update notes are temporarily unavailable.'));
-    });
-  }
 
   const gallery = document.querySelector('[data-gallery]');
   const mediaSlots = [...document.querySelectorAll('[data-asset-path]')];

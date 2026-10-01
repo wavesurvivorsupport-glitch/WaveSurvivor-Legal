@@ -1,3 +1,591 @@
 {
-  "updates": []
+  "updates": [
+    {
+      "id": "v0-1-35",
+      "version": "0.1.35",
+      "date": "2026-10-01",
+      "headline": "Update v0.1.35",
+      "summary": "DISCORD: Rich Presence now shows your current mode, role, Story objective or Endless wave, and online party size.",
+      "categories": [
+        {
+          "name": "Discord",
+          "changes": [
+            "DISCORD: Rich Presence now shows your current mode, role, Story objective or Endless wave, and online party size."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-34",
+      "version": "0.1.34",
+      "date": "2026-09-30",
+      "headline": "Update v0.1.34",
+      "summary": "STORY: Fixed Explore kill credit so legitimate enemy defeats advance reliably and the 20th defeat starts the Core route.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "STORY: Fixed Explore kill credit so legitimate enemy defeats advance reliably and the 20th defeat starts the Core route."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-33",
+      "version": "0.1.33",
+      "date": "2026-09-30",
+      "headline": "Update v0.1.33",
+      "summary": "STORY: Added a randomized four-region Core route with 50-enemy defenses, escalating card rewards, and regional enemy spawning.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "STORY: Added a randomized four-region Core route with 50-enemy defenses, escalating card rewards, and regional enemy spawning."
+          ]
+        },
+        {
+          "name": "Boss",
+          "changes": [
+            "BOSS: Blue-region adds now enter from authored spawn volumes with a larger budget; the Blue arena closes when the Boss fight begins."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-31",
+      "version": "0.1.31",
+      "date": "2026-09-30",
+      "headline": "Update v0.1.31",
+      "summary": "BOSS: Grounded Boss1's landing and shockwave warnings, set a three-second locked escape window, and made the landing circle lethal.",
+      "categories": [
+        {
+          "name": "Boss",
+          "changes": [
+            "BOSS: Grounded Boss1's landing and shockwave warnings, set a three-second locked escape window, and made the landing circle lethal."
+          ]
+        },
+        {
+          "name": "DPS",
+          "changes": [
+            "DPS: Increased passive stack grace time to 20 seconds."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-30",
+      "version": "0.1.30",
+      "date": "2026-09-30",
+      "headline": "Update v0.1.30",
+      "summary": "DPS: Passive stacks now have a 15-second grace period, then decay one per second; Save & Exit preserves the exact decay timing.",
+      "categories": [
+        {
+          "name": "DPS",
+          "changes": [
+            "DPS: Passive stacks now have a 15-second grace period, then decay one per second; Save & Exit preserves the exact decay timing."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-29",
+      "version": "0.1.29",
+      "date": "2026-09-30",
+      "headline": "Update v0.1.29",
+      "summary": "STORY: Defeat and victory now clear finished run saves; Core Defense advances to Boss at 80 kills, with a clearer objective handoff and preserved DPS passive state on Save & Exit.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "STORY: Defeat and victory now clear finished run saves; Core Defense advances to Boss at 80 kills, with a clearer objective handoff and preserved DPS passive state on Save & Exit."
+          ]
+        },
+        {
+          "name": "Achievements",
+          "changes": [
+            "ACHIEVEMENTS: Added a live Total Kills preview above the Main Menu welcome panel."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-28",
+      "version": "0.1.28",
+      "date": "2026-09-30",
+      "headline": "Update v0.1.28",
+      "summary": "STORY HUD: Raised the Travel and Core Defense phase titles above their progress bars for clearer reading.",
+      "categories": [
+        {
+          "name": "Story HUD",
+          "changes": [
+            "STORY HUD: Raised the Travel and Core Defense phase titles above their progress bars for clearer reading."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-27",
+      "version": "0.1.27",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.27",
+      "summary": "ACHIEVEMENTS: Total Kills now grants a persistent percentage Combat Power bonus to player damage and healing at Common, Uncommon, Rare, and Epic tiers.",
+      "categories": [
+        {
+          "name": "Achievements",
+          "changes": [
+            "ACHIEVEMENTS: Total Kills now grants a persistent percentage Combat Power bonus to player damage and healing at Common, Uncommon, Rare, and Epic tiers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-26",
+      "version": "0.1.26",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.26",
+      "summary": "ACHIEVEMENTS: Added persistent Total Kills progression with Common, Uncommon, Rare, and Epic tiers and an account reward.",
+      "categories": [
+        {
+          "name": "Achievements",
+          "changes": [
+            "ACHIEVEMENTS: Added persistent Total Kills progression with Common, Uncommon, Rare, and Epic tiers and an account reward."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-25",
+      "version": "0.1.25",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.25",
+      "summary": "BOSS: Overhauled Boss1 combat with a new below-50% airborne targeting slam, clearer landing and shockwave warnings, and 5000 HP.",
+      "categories": [
+        {
+          "name": "Boss",
+          "changes": [
+            "BOSS: Overhauled Boss1 combat with a new below-50% airborne targeting slam, clearer landing and shockwave warnings, and 5000 HP."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-24",
+      "version": "0.1.24",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.24",
+      "summary": "STORY: Clarified travel and defense progress text, and quickened late-defense enemy pacing.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "STORY: Clarified travel and defense progress text, and quickened late-defense enemy pacing."
+          ]
+        },
+        {
+          "name": "Boss",
+          "changes": [
+            "BOSS: Added the authored spawn point and objective intro; Boss1 now starts alone. Cleaned up Story checkpoint resume presentation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-23",
+      "version": "0.1.23",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.23",
+      "summary": "STORY: Added a clear travel countdown and Core-defense progress bar, smoother defense spawns, and card offers at defeat milestones.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "STORY: Added a clear travel countdown and Core-defense progress bar, smoother defense spawns, and card offers at defeat milestones."
+          ]
+        },
+        {
+          "name": "HUD",
+          "changes": [
+            "HUD: Improved objective handoffs and minimap Core and enemy markers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-22",
+      "version": "0.1.22",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.22",
+      "summary": "STORY: The test encounter now moves from 20 Explore defeats through a 25-second Core travel period and 80 Core-defense defeats to the boss.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "STORY: The test encounter now moves from 20 Explore defeats through a 25-second Core travel period and 80 Core-defense defeats to the boss."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-21",
+      "version": "0.1.21",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.21",
+      "summary": "HUD: The minimap now zooms into local defense near an active Core, with clearer markers and Core direction guidance.",
+      "categories": [
+        {
+          "name": "HUD",
+          "changes": [
+            "HUD: The minimap now zooms into local defense near an active Core, with clearer markers and Core direction guidance.",
+            "HUD: Removed the old crosshair enemy direction arrows."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-20",
+      "version": "0.1.20",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.20",
+      "summary": "HUD: Added a static city minimap with player, Core, and enemy markers.",
+      "categories": [
+        {
+          "name": "HUD",
+          "changes": [
+            "HUD: Added a static city minimap with player, Core, and enemy markers."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-19",
+      "version": "0.1.19",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.19",
+      "summary": "HUD: Made the Explore announcement smaller and easier to see through.",
+      "categories": [
+        {
+          "name": "HUD",
+          "changes": [
+            "HUD: Made the Explore announcement smaller and easier to see through."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-18",
+      "version": "0.1.18",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.18",
+      "summary": "VISUALS: Reduced bright storefront glow on city podiums.",
+      "categories": [
+        {
+          "name": "Visuals",
+          "changes": [
+            "VISUALS: Reduced bright storefront glow on city podiums."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-17",
+      "version": "0.1.17",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.17",
+      "summary": "GAMEPLAY: Added authored combat-region spawning for Archive Core encounters.",
+      "categories": [
+        {
+          "name": "Gameplay",
+          "changes": [
+            "GAMEPLAY: Added authored combat-region spawning for Archive Core encounters."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-16",
+      "version": "0.1.16",
+      "date": "2026-09-29",
+      "headline": "Update v0.1.16",
+      "summary": "HUD: Reworked progression around objectives instead of numbered waves.",
+      "categories": [
+        {
+          "name": "HUD",
+          "changes": [
+            "HUD: Reworked progression around objectives instead of numbered waves.",
+            "HUD: Added clearer Archive Core damage feedback."
+          ]
+        },
+        {
+          "name": "Gameplay",
+          "changes": [
+            "GAMEPLAY: Increased DPS primary weapon range."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-15",
+      "version": "0.1.15",
+      "date": "2026-09-28",
+      "headline": "Update v0.1.15",
+      "summary": "OBJECTIVES: Archive Core activation is now much easier to notice.",
+      "categories": [
+        {
+          "name": "Objectives",
+          "changes": [
+            "OBJECTIVES: Archive Core activation is now much easier to notice."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-14",
+      "version": "0.1.14",
+      "date": "2026-09-28",
+      "headline": "Update v0.1.14",
+      "summary": "GAMEPLAY: Enemies now disappear immediately when defeated.",
+      "categories": [
+        {
+          "name": "Gameplay",
+          "changes": [
+            "GAMEPLAY: Enemies now disappear immediately when defeated."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-13",
+      "version": "0.1.13",
+      "date": "2026-09-28",
+      "headline": "Update v0.1.13",
+      "summary": "UI: Corrected role icons and Ready Room profile colors.",
+      "categories": [
+        {
+          "name": "UI",
+          "changes": [
+            "UI: Corrected role icons and Ready Room profile colors."
+          ]
+        },
+        {
+          "name": "Gameplay",
+          "changes": [
+            "GAMEPLAY: Invisible movement boundaries no longer block attacks.",
+            "GAMEPLAY: Lethal damage numbers now match HP removed Offline and Online."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-12",
+      "version": "0.1.12",
+      "date": "2026-09-27",
+      "headline": "Update v0.1.12",
+      "summary": "GAMEPLAY: Updated the city roads for ability targeting and closer enemy spawning.",
+      "categories": [
+        {
+          "name": "Gameplay",
+          "changes": [
+            "GAMEPLAY: Updated the city roads for ability targeting and closer enemy spawning.",
+            "GAMEPLAY: Enemies no longer gain movement speed from distance."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-11",
+      "version": "0.1.11",
+      "date": "2026-09-27",
+      "headline": "Update v0.1.11",
+      "summary": "OFFLINE: Fixed Story and Endless runs becoming stuck while preparing Wave 1.",
+      "categories": [
+        {
+          "name": "Offline",
+          "changes": [
+            "OFFLINE: Fixed Story and Endless runs becoming stuck while preparing Wave 1."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-10",
+      "version": "0.1.10",
+      "date": "2026-09-26",
+      "headline": "Update v0.1.10",
+      "summary": "CARDS: Critical Chance and Critical Damage are now combined into Critical Strike.",
+      "categories": [
+        {
+          "name": "Cards",
+          "changes": [
+            "CARDS: Critical Chance and Critical Damage are now combined into Critical Strike."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-9",
+      "version": "0.1.9",
+      "date": "2026-09-06",
+      "headline": "Update v0.1.9",
+      "summary": "HOW TO PLAY: Polished Basics guide alignment.",
+      "categories": [
+        {
+          "name": "How to Play",
+          "changes": [
+            "HOW TO PLAY: Polished Basics guide alignment."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-8",
+      "version": "0.1.8",
+      "date": "2026-09-02",
+      "headline": "Update v0.1.8",
+      "summary": "CARDS: Refined Tank card eligibility for a clearer defensive role identity.",
+      "categories": [
+        {
+          "name": "Cards",
+          "changes": [
+            "CARDS: Refined Tank card eligibility for a clearer defensive role identity.",
+            "CARDS: Cleaned up DPS Regeneration card information."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-7",
+      "version": "0.1.7",
+      "date": "2026-09-01",
+      "headline": "Update v0.1.7",
+      "summary": "HOW TO PLAY: Polished Tank, DPS, and Healer role-guide layouts.",
+      "categories": [
+        {
+          "name": "How to Play",
+          "changes": [
+            "HOW TO PLAY: Polished Tank, DPS, and Healer role-guide layouts."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-6",
+      "version": "0.1.6",
+      "date": "2026-09-01",
+      "headline": "Update v0.1.6",
+      "summary": "HOW TO PLAY: Added the Healer role guide with abilities, support tips, and an interactive character preview.",
+      "categories": [
+        {
+          "name": "How to Play",
+          "changes": [
+            "HOW TO PLAY: Added the Healer role guide with abilities, support tips, and an interactive character preview."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-5",
+      "version": "0.1.5",
+      "date": "2026-09-01",
+      "headline": "Update v0.1.5",
+      "summary": "HOW TO PLAY: Polished the DPS role guide layout and presentation.",
+      "categories": [
+        {
+          "name": "How to Play",
+          "changes": [
+            "HOW TO PLAY: Polished the DPS role guide layout and presentation."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-4",
+      "version": "0.1.4",
+      "date": "2026-09-01",
+      "headline": "Update v0.1.4",
+      "summary": "MENUS: Removed the Patch Notes button from screens where it did not belong.",
+      "categories": [
+        {
+          "name": "Menus",
+          "changes": [
+            "MENUS: Removed the Patch Notes button from screens where it did not belong."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-3",
+      "version": "0.1.3",
+      "date": "2026-09-01",
+      "headline": "Update v0.1.3",
+      "summary": "HOW TO PLAY: Added the complete DPS role guide with abilities, combat tips, and an interactive character preview.",
+      "categories": [
+        {
+          "name": "How to Play",
+          "changes": [
+            "HOW TO PLAY: Added the complete DPS role guide with abilities, combat tips, and an interactive character preview."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-2",
+      "version": "0.1.2",
+      "date": "2026-09-01",
+      "headline": "Update v0.1.2",
+      "summary": "MENUS: Fixed Patch Notes opening unexpectedly while navigating Offline modes.",
+      "categories": [
+        {
+          "name": "Menus",
+          "changes": [
+            "MENUS: Fixed Patch Notes opening unexpectedly while navigating Offline modes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-1",
+      "version": "0.1.1",
+      "date": "2026-09-01",
+      "headline": "Update v0.1.1",
+      "summary": "SETTINGS: Fixed several controls not applying correctly.",
+      "categories": [
+        {
+          "name": "Settings",
+          "changes": [
+            "SETTINGS: Fixed several controls not applying correctly."
+          ]
+        },
+        {
+          "name": "General",
+          "changes": [
+            "Added precise decimal mouse-sensitivity adjustment.",
+            "Added persistent control rebinding and individual binding resets.",
+            "Fixed FOV, Master Volume, Camera Shake and HUD Scale settings.",
+            "Improved Settings persistence and reliability."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-1-0",
+      "version": "0.1.0",
+      "date": "2026-08-30",
+      "headline": "Update v0.1.0",
+      "summary": "Added the in-game Patch Notes screen.",
+      "categories": [
+        {
+          "name": "General",
+          "changes": [
+            "Added the in-game Patch Notes screen.",
+            "Added General, Video, Audio, and Controls Settings tabs.",
+            "Added Online Ready Room profile icon and color customization.",
+            "Updated DPS, Tank, and Healer role icons and visual identity.",
+            "Improved Online Ready Room role selection and Ready/Unready flow.",
+            "Added persistent Offline Story and Endless save slots.",
+            "Improved menu presentation across Offline and Online flows."
+          ]
+        }
+      ]
+    }
+  ]
 }

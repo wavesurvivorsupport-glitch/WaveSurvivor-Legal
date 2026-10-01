@@ -8,14 +8,23 @@ The home, Media, Support and Updates shells are generated from fragments/*.html 
 
 ## Publish patch notes
 
-Add a real, approved entry to docs/data/updates.json. The home preview, Updates index and update detail view read the same data. Use this shape; replace every example value with a real public update:
+`docs/data/updates.json` is the only patch-note source. The site builder generates the homepage preview, newest-first Updates index, a permanent HTML page for each note, the sitemap, and `docs/updates.xml` from that one file. Historical notes were migrated from the former in-game catalog; their change strings are preserved in the JSON. Publish only verified player-facing changes.
+
+For the next release:
+
+1. Add one entry to the `updates` array in `docs/data/updates.json` using the format below. Put the newest note first for easy editing; the builder sorts by date and version.
+2. Run `python build_site.py` and `python qa_site.py` from the repository root. The first command regenerates every update page and feed; the second checks links, data, and feed consistency.
+3. Preview with `python -m http.server 8000 --directory docs`, then open `http://localhost:8000/updates/` and the new article. Stop the preview server when finished.
+4. Commit the JSON and generated website files, then push to `main`. GitHub Pages publishes `main` / `docs`. Players can read the note at `https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/` without launching or rebuilding the game.
+
+Example entry (replace every example value with a real public update):
 
     {
-      "id": "unique-lowercase-slug",
-      "version": "published game version",
+      "id": "v0-2-0",
+      "version": "0.2.0",
       "date": "YYYY-MM-DD",
-      "headline": "Public headline",
-      "summary": "One short public summary.",
+      "headline": "Update v0.2.0",
+      "summary": "One short summary of verified changes.",
       "categories": [
         { "name": "Gameplay", "changes": ["A verified player-facing change."] }
       ],
@@ -23,7 +32,9 @@ Add a real, approved entry to docs/data/updates.json. The home preview, Updates 
       "imageAlt": "Description of that image"
     }
 
-The image and imageAlt fields are optional together. Add the entry to the updates array, validate JSON, and push to main. Its detail URL is /updates/article.html?id=unique-lowercase-slug. Do not remove the in-game Patch Notes menu until this public data flow and the game's navigation to it have been separately reviewed and tested.
+Required fields: a unique lowercase `id` using letters, numbers, and hyphens; `headline`; `summary`; and at least one category with a name and nonempty `changes` list. Include `version` and an ISO `date` whenever known. Omit or use `null` for a genuinely unknown historical version/date; never guess one. `image` and `imageAlt` are optional together. Keep change descriptions complete. Each article URL is `/updates/<id>.html`; never reuse an existing id for a different note.
+
+The public RSS feed at `/updates.xml` is generated from the same JSON. Services such as PatchBot can use the feed if their current product supports that URL and format; configure such a service only after checking its official requirements. The game no longer contains a Patch Notes menu or catalog. Its displayed build version comes from Unity's application version and is changed only as part of a deliberate game release.
 
 ## Add media
 
