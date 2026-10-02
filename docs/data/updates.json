@@ -1,6 +1,21 @@
 {
   "updates": [
     {
+      "id": "v0-1-47",
+      "version": "0.1.47",
+      "date": "2026-10-02",
+      "headline": "v0.1.47 — Faster Floating Damage Numbers",
+      "summary": "Floating damage numbers keep their current animation and play through it 10% faster.",
+      "categories": [
+        {
+          "name": "HUD",
+          "changes": [
+            "Floating damage numbers play the same rise and fade animation 10% faster."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-46",
       "version": "0.1.46",
       "date": "2026-10-02",
