@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-54",
+      "version": "0.1.54",
+      "date": "2026-10-03",
+      "headline": "v0.1.54 — Core Defense Target Display Fix",
+      "summary": "Offline Story Core Defense now keeps its configured 100-kill target on the HUD from the start, including after resuming a run.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "Skipped enemy spawns no longer lower the Offline Story Core Defense HUD target from 100.",
+            "Resumed Core Defense keeps the saved legitimate kill count out of 100, and the 100th legitimate kill remains the completion point."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-53",
       "version": "0.1.53",
       "date": "2026-10-03",
