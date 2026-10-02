@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-53",
+      "version": "0.1.53",
+      "date": "2026-10-03",
+      "headline": "v0.1.53 — Three Core Encounters Before Boss",
+      "summary": "Offline Story now uses three unique Core regions before the existing Boss encounter, preserving the selected route and placement when a run resumes.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "Offline Story runs exactly three unique CoreDefense encounters before the existing Boss intro.",
+            "The region left unused in a run remains eligible for future runs, and Blue and Green keep their authored Core placement selection.",
+            "Story checkpoints preserve the chosen route and placement; older checkpoints headed to a fourth Core resume at BossIntro."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-52",
       "version": "0.1.52",
       "date": "2026-10-03",
