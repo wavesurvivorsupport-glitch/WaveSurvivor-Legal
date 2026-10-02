@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-52",
+      "version": "0.1.52",
+      "date": "2026-10-03",
+      "headline": "v0.1.52 — Kill-Only DPS Passive",
+      "summary": "DPS Progressive Fire now builds Attack Speed only from legitimate enemy kills; the existing 20-second grace and one-stack-per-second decay remain.",
+      "categories": [
+        {
+          "name": "DPS",
+          "changes": [
+            "Each legitimate enemy kill grants one Progressive Fire stack and +0.01 Attack Speed.",
+            "Primary-fire hits no longer grant stacks or refresh the grace timer.",
+            "The existing 20-second grace period and one-stack-per-second decay are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-51",
       "version": "0.1.51",
       "date": "2026-10-03",

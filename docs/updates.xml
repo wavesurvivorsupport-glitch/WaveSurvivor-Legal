@@ -6,6 +6,13 @@
     <description>Official WaveSurvivor patch notes from Haider Games</description>
     <language>en-us</language>
     <item>
+      <title>v0.1.52 — Kill-Only DPS Passive</title>
+      <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-52.html</link>
+      <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-52.html</guid>
+      <description>DPS Progressive Fire now builds Attack Speed only from legitimate enemy kills; the existing 20-second grace and one-stack-per-second decay remain.</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>v0.1.51 — Final Explore Batch Completion Fix</title>
       <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-51.html</link>
       <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-51.html</guid>
