@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-50",
+      "version": "0.1.50",
+      "date": "2026-10-02",
+      "headline": "v0.1.50 — Enemy Tracker Projectile Guidance",
+      "summary": "DPS Enemy Tracker shots keep their initial aim, then bend toward enemies once they become visible from the projectile's position.",
+      "categories": [
+        {
+          "name": "DPS",
+          "changes": [
+            "Enemy Tracker projectiles fly straight briefly, then seek visible enemies from their current position and curve smoothly.",
+            "Solid walls block target acquisition, and a locked target is released after a short obstruction.",
+            "Enemy Tracker keeps its 25% damage penalty and no longer reduces Attack Speed."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-49",
       "version": "0.1.49",
       "date": "2026-10-02",
