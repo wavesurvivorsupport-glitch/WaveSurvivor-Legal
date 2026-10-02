@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-51",
+      "version": "0.1.51",
+      "date": "2026-10-03",
+      "headline": "v0.1.51 — Final Explore Batch Completion Fix",
+      "summary": "Offline Story's final Red Explore batch now completes only after all issued Red enemies are defeated; the first five section handoffs keep their existing pacing.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "Core selection and GET TO THE CORE travel now wait until no enemies from the final Red batch remain alive.",
+            "Survivors from earlier Explore batches do not block Red completion.",
+            "Pink through Blue 1 keep their existing handoff once two or fewer enemies from the active batch remain."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-50",
       "version": "0.1.50",
       "date": "2026-10-02",
