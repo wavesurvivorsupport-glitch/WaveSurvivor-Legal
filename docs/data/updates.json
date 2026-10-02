@@ -16,6 +16,22 @@
       ]
     },
     {
+      "id": "v0-1-48",
+      "version": "0.1.48",
+      "date": "2026-10-02",
+      "headline": "v0.1.48 — Core Defense Minimap Framing",
+      "summary": "Offline Story Core Defense minimaps now frame the selected Core and its full authored enemy spawn area, with steady, aspect-correct coverage.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "Core Defense minimaps fit all ordinary-enemy spawn volumes assigned to the active Core, include the Core, and keep approximately 15% padding around the combat bounds.",
+            "The Core-specific tactical frame stays fixed throughout the defense."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-46",
       "version": "0.1.46",
       "date": "2026-10-02",
