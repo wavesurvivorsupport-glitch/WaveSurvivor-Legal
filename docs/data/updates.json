@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-49",
+      "version": "0.1.49",
+      "date": "2026-10-02",
+      "headline": "v0.1.49 — Boss1 Phase 1 Ground Wave Fix",
+      "summary": "Boss1's Phase 1 attack now resolves the authored city roads after landing and emits its aimed directional ground wave.",
+      "categories": [
+        {
+          "name": "Boss",
+          "changes": [
+            "Boss1 Phase 1 now resolves the PlayableRoad surface after landing.",
+            "The aimed directional cone wave now appears and travels along the ground."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-47",
       "version": "0.1.47",
       "date": "2026-10-02",
