@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-60",
+      "version": "0.1.60",
+      "date": "2026-10-03",
+      "headline": "v0.1.60 — Faster Damage Popups",
+      "summary": "Damage numbers now complete their existing movement and fade animation 25% faster than the previous popup speed.",
+      "categories": [
+        {
+          "name": "Presentation",
+          "changes": [
+            "Normal and critical damage popups now play at 1.375× speed, up from 1.10×.",
+            "Popups disappear as the faster animation finishes, while their text, colors, movement, and fade style stay the same."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-59",
       "version": "0.1.59",
       "date": "2026-10-03",
