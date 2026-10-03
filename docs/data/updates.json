@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-55",
+      "version": "0.1.55",
+      "date": "2026-10-03",
+      "headline": "v0.1.55 — Boss1 Phase 1 Attack Clarity",
+      "summary": "Boss1's Phase 1 warning cone clears as the directional ground wave launches, and the landing now carries the existing impact camera shake.",
+      "categories": [
+        {
+          "name": "Boss1",
+          "changes": [
+            "The Phase 1 red warning cone disappears when the real directional ground wave releases, leaving the traveling wave clearly visible.",
+            "Phase 1 landing now uses the same impact camera shake as Phase 2."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-54",
       "version": "0.1.54",
       "date": "2026-10-03",
