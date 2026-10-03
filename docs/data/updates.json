@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-64",
+      "version": "0.1.64",
+      "date": "2026-10-03",
+      "headline": "v0.1.64 — Tighter DPS Multi-Projectile Crosshair",
+      "summary": "The DPS primary-fire crosshair is more compact with two or three projectiles, while actual projectile spread stays the same.",
+      "categories": [
+        {
+          "name": "DPS",
+          "changes": [
+            "Side crosshair markers for two- and three-projectile primary fire are positioned 40% closer to the screen center where their visual size allows.",
+            "The layout retains space between crosshair pieces at high FOV or narrow resolutions; projectile trajectories, damage, and Enemy Tracker behavior are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-63",
       "version": "0.1.63",
       "date": "2026-10-03",
