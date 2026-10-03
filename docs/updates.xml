@@ -6,6 +6,13 @@
     <description>Official WaveSurvivor patch notes from Haider Games</description>
     <language>en-us</language>
     <item>
+      <title>v0.1.58 — Boss1 Airborne Damage Fix</title>
+      <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-58.html</link>
+      <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-58.html</guid>
+      <description>Boss1 now ignores player damage while airborne during its Phase 1 jumps and Phase 2 tracking dive, preventing midair defeats.</description>
+      <pubDate>Sat, 03 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>v0.1.57 — Shorter Offline Core Defenses</title>
       <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-57.html</link>
       <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-57.html</guid>

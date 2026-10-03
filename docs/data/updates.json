@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-58",
+      "version": "0.1.58",
+      "date": "2026-10-03",
+      "headline": "v0.1.58 — Boss1 Airborne Damage Fix",
+      "summary": "Boss1 now ignores player damage while airborne during its Phase 1 jumps and Phase 2 tracking dive, preventing midair defeats.",
+      "categories": [
+        {
+          "name": "Boss1",
+          "changes": [
+            "Boss1 takes no player damage after takeoff during the directional and circular jumps or the Phase 2 tracking dive.",
+            "Grounded warning and post-landing windows remain damageable."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-57",
       "version": "0.1.57",
       "date": "2026-10-03",
