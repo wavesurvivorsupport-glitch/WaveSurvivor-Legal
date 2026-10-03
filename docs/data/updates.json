@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-65",
+      "version": "0.1.65",
+      "date": "2026-10-03",
+      "headline": "v0.1.65 — Base Critical Damage Balance",
+      "summary": "Player Critical Damage now starts at 1.0× instead of 2.0×; existing Critical Damage upgrades still add to that base.",
+      "categories": [
+        {
+          "name": "Balance",
+          "changes": [
+            "A critical hit without Critical Damage upgrades now deals the same damage as a normal hit, while still registering and appearing as a crit.",
+            "Critical Damage upgrades retain their existing additive amounts and stacking rules, starting from 1.0×.",
+            "Crit Chance, which attacks can crit, and other starting stats are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-64",
       "version": "0.1.64",
       "date": "2026-10-03",
