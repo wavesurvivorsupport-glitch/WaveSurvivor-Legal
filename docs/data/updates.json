@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-59",
+      "version": "0.1.59",
+      "date": "2026-10-03",
+      "headline": "v0.1.59 — Responsive FPS Movement",
+      "summary": "Ground and air movement now respond quickly to current WASD input while keeping smooth jump momentum and a clear movement-speed limit.",
+      "categories": [
+        {
+          "name": "Gameplay",
+          "changes": [
+            "Releasing a strafe direction on the ground or in the air quickly removes its sideways drift, and direction changes respond to current input.",
+            "Jumping retains natural takeoff motion, while repeated hops and air steering stay within the effective Movement Speed limit.",
+            "Dash, jump height, gravity, and Movement Speed bonuses retain their existing behavior."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-58",
       "version": "0.1.58",
       "date": "2026-10-03",
