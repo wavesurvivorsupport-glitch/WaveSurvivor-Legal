@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-56",
+      "version": "0.1.56",
+      "date": "2026-10-03",
+      "headline": "v0.1.56 — Core Travel Timer and Minimap",
+      "summary": "Offline Story Core travel now starts at 60 seconds, shortens to three seconds near the selected Core, and keeps the broad minimap until Core Defense begins.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "Each Core travel starts with the same 60-second countdown, regardless of route or distance.",
+            "Entering the selected Core's arrival range reduces the remaining countdown to at most three seconds; moving away does not increase it.",
+            "The old travel proximity zoom is gone. The minimap switches directly from its broad view to the existing Core Defense tactical frame."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-55",
       "version": "0.1.55",
       "date": "2026-10-03",
