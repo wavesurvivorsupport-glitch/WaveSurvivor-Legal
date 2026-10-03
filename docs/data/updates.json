@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-61",
+      "version": "0.1.61",
+      "date": "2026-10-03",
+      "headline": "v0.1.61 — 70-Kill Offline Core Defense",
+      "summary": "Each Offline Story Core Defense now completes at 70 legitimate kills instead of 80, with the HUD and resumed progress using the same target.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "Every Offline Story Core placement now requires 70 legitimate kills.",
+            "The HUD displays progress out of 70; skipped spawns do not lower the target, and compatible saves restore against it.",
+            "Core rewards, the three-Core sequence, spawn pacing, and the separate shared/Online target are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-60",
       "version": "0.1.60",
       "date": "2026-10-03",
