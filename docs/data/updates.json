@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-62",
+      "version": "0.1.62",
+      "date": "2026-10-03",
+      "headline": "v0.1.62 — Total Kills Achievement Rebalance",
+      "summary": "Rare Total Kills now requires 10,000 account kills and Epic requires 50,000; completed tiers continue showing live numerical progress.",
+      "categories": [
+        {
+          "name": "Achievements",
+          "changes": [
+            "Rare Total Kills now unlocks at 10,000 legitimate account kills, and Epic unlocks at 50,000.",
+            "Common and Uncommon requirements and all existing Combat Power rewards remain the same.",
+            "Every tier displays current account kills / required kills even after completion, without capping the shown total. Existing profile kill totals remain intact."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-61",
       "version": "0.1.61",
       "date": "2026-10-03",
