@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-63",
+      "version": "0.1.63",
+      "date": "2026-10-03",
+      "headline": "v0.1.63 — Boss Transition No Longer Waits for Cards",
+      "summary": "Offline Story now starts the Boss intro after Core 3 without waiting for pending card choices; the offers remain available.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "The Boss objective, countdown, and encounter begin after Core 3 even when one or more card choices are pending.",
+            "Pending offers remain selectable, and a resumed BossIntro retains both the Story phase and queued choices."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-62",
       "version": "0.1.62",
       "date": "2026-10-03",
