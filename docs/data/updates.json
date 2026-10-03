@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-57",
+      "version": "0.1.57",
+      "date": "2026-10-03",
+      "headline": "v0.1.57 — Shorter Offline Core Defenses",
+      "summary": "Offline Story Core defenses now require 80 legitimate enemy kills each, down from 100, with the same rewards and refill pacing.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "Each Offline Story Core Defense completes on its 80th legitimate enemy kill instead of its 100th.",
+            "The HUD and resumed progress show the 80-kill target, and skipped spawns do not lower it.",
+            "Core rewards and the current enemy refill behavior remain the same."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-56",
       "version": "0.1.56",
       "date": "2026-10-03",
