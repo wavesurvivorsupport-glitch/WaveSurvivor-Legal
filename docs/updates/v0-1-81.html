@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="description" content="Reusable world/minimap waypoints and rectangular floor zones are ready for development preview, with authored Chapter locations preserved.">
-  <title>v0.1.80 — Reusable Chapter Objective Foundation | WaveSurvivor</title>
-  <link rel="canonical" href="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-80.html">
+  <meta name="description" content="Clear the initial threat, repair communications through static and moving zones, and hold the final signal to open the gate.">
+  <title>v0.1.81 — District 1 Mission Flow: First Half | WaveSurvivor</title>
+  <link rel="canonical" href="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-81.html">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/site.css?v=20261001b">
   <link rel="alternate" type="application/rss+xml" title="WaveSurvivor Updates" href="../updates.xml">
   <meta property="og:type" content="website"><meta property="og:site_name" content="WaveSurvivor">
-  <meta property="og:title" content="v0.1.80 — Reusable Chapter Objective Foundation | WaveSurvivor">
-  <meta property="og:description" content="Reusable world/minimap waypoints and rectangular floor zones are ready for development preview, with authored Chapter locations preserved.">
-  <meta property="og:url" content="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-80.html">
+  <meta property="og:title" content="v0.1.81 — District 1 Mission Flow: First Half | WaveSurvivor">
+  <meta property="og:description" content="Clear the initial threat, repair communications through static and moving zones, and hold the final signal to open the gate.">
+  <meta property="og:url" content="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-81.html">
   <meta property="og:image" content="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/assets/og-card.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="v0.1.80 — Reusable Chapter Objective Foundation | WaveSurvivor">
-  <meta name="twitter:description" content="Reusable world/minimap waypoints and rectangular floor zones are ready for development preview, with authored Chapter locations preserved.">
+  <meta name="twitter:title" content="v0.1.81 — District 1 Mission Flow: First Half | WaveSurvivor">
+  <meta name="twitter:description" content="Clear the initial threat, repair communications through static and moving zones, and hold the final signal to open the gate.">
   <meta name="twitter:image" content="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/assets/og-card.png">
   <script defer src="../assets/site.js?v=20261001b"></script>
 </head>
@@ -28,7 +28,7 @@
     <a class="header-cta" href="https://store.steampowered.com/app/5170710/WaveSurvivor/" rel="noopener noreferrer">View on Steam ↗</a>
     <details class="mobile-menu"><summary>Menu</summary><nav class="mobile-nav" aria-label="Mobile navigation"><a href="../index.html">Home</a><a href="../index.html#game">Game</a><a href="../index.html#story">Story</a><a href="../index.html#roles">Roles</a><a href="../media.html">Media</a><a href="../updates/index.html" aria-current="page">Updates</a><a href="../index.html#faq">FAQ</a><a href="../support.html">Support</a><a href="https://store.steampowered.com/app/5170710/WaveSurvivor/" rel="noopener noreferrer">View on Steam ↗</a></nav></details>
   </div></header>
-  <main id="main"><section class="content-section"><div class="wrap article"><a class="text-link back" href="index.html">← All updates</a><article class="update-detail"><p class="eyebrow">v0.1.80 · October 5, 2026</p><h1>v0.1.80 — Reusable Chapter Objective Foundation</h1><p class="lead">Reusable world/minimap waypoints and rectangular floor zones are ready for development preview, with authored Chapter locations preserved.</p><section class="update-section"><h2>Objective Foundation</h2><ul><li>CHAPTER FOUNDATION: Added reusable objective waypoints with configurable labels, category icons, optional distance, and off-screen direction indicators. One target API drives both the world indication and the existing Chapter minimap.</li><li>CHAPTER FOUNDATION: Added reusable rectangular ObjectiveZone detection and an original floor border with subtle translucent fill. Authored footprints stay intact, jumping remains inside the taller detection area, and 5×5 zones can resize to 3×3 at runtime.</li></ul></section><section class="update-section"><h2>Development Preview</h2><ul><li>DEVELOPMENT: Chapter1_Blockout now provides preview actions for the authored signal and door targets, zone visibility, and zone sizes. Existing HUD, district/corridor framing, combat prototype, and gate flow remain intact; signal repair, moving zones, ambushes, door interactions, and the new District 1 mission sequence are future work.</li></ul></section></article><nav class="update-navigation" aria-label="Browse updates"><a href="v0-1-81.html">← Newer: v0.1.81 — District 1 Mission Flow: First Half</a><a href="v0-1-79.html">Older: v0.1.79 — Chapter 1-1 Playtest Polish →</a></nav></div></section></main>
+  <main id="main"><section class="content-section"><div class="wrap article"><a class="text-link back" href="index.html">← All updates</a><article class="update-detail"><p class="eyebrow">v0.1.81 · October 5, 2026</p><h1>v0.1.81 — District 1 Mission Flow: First Half</h1><p class="lead">Clear the initial threat, repair communications through static and moving zones, and hold the final signal to open the gate.</p><section class="update-section"><h2>District 1 Flow</h2><ul><li>CHAPTER 1: Replaced the earlier three-batch prototype with a District 1 intro, exactly ten legitimate initial kills, and a five-second post-clear beat before communications repair.</li><li>CHAPTER 1: Repair communications in a static 5×5 area from 0 to 50, then follow the same 3×3 area as it bounces within authored bounds from 50 to 100. Repair advances one point per second only while inside; leaving pauses progress.</li><li>CHAPTER 1: Authored District 1 enemy sources supply configurable repair pressure. At 100, new spawning stops and a five-second continuous hold at the final signal zone opens the existing animated gate. Surviving pressure enemies remain; ambush and door-lock recovery are future work.</li></ul></section><section class="update-section"><h2>Existing Systems</h2><ul><li>PRESENTATION: Reused existing objective notifications, world/minimap waypoints and contextual progress. Authored positions, HUD, cards, minimap framing, canonical combat and normal XP are preserved.</li></ul></section></article><nav class="update-navigation" aria-label="Browse updates"><a href="v0-1-80.html">Older: v0.1.80 — Reusable Chapter Objective Foundation →</a></nav></div></section></main>
   <footer class="site-footer"><div class="wrap">
     <div class="footer-grid">
       <div><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">W</span><span>WAVE<b>SURVIVOR</b></span></a><p>A sci-fi FPS built around teamwork, roles and evolving runs.<br>By Haider Games.</p></div>

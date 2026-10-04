@@ -1,6 +1,29 @@
 {
   "updates": [
     {
+      "id": "v0-1-81",
+      "version": "0.1.81",
+      "date": "2026-10-05",
+      "headline": "v0.1.81 — District 1 Mission Flow: First Half",
+      "summary": "Clear the initial threat, repair communications through static and moving zones, and hold the final signal to open the gate.",
+      "categories": [
+        {
+          "name": "District 1 Flow",
+          "changes": [
+            "CHAPTER 1: Replaced the earlier three-batch prototype with a District 1 intro, exactly ten legitimate initial kills, and a five-second post-clear beat before communications repair.",
+            "CHAPTER 1: Repair communications in a static 5×5 area from 0 to 50, then follow the same 3×3 area as it bounces within authored bounds from 50 to 100. Repair advances one point per second only while inside; leaving pauses progress.",
+            "CHAPTER 1: Authored District 1 enemy sources supply configurable repair pressure. At 100, new spawning stops and a five-second continuous hold at the final signal zone opens the existing animated gate. Surviving pressure enemies remain; ambush and door-lock recovery are future work."
+          ]
+        },
+        {
+          "name": "Existing Systems",
+          "changes": [
+            "PRESENTATION: Reused existing objective notifications, world/minimap waypoints and contextual progress. Authored positions, HUD, cards, minimap framing, canonical combat and normal XP are preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-80",
       "version": "0.1.80",
       "date": "2026-10-05",
