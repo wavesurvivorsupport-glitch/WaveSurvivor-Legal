@@ -1,6 +1,33 @@
 {
   "updates": [
     {
+      "id": "v0-1-84",
+      "version": "0.1.84",
+      "date": "2026-10-05",
+      "headline": "v0.1.84 — District Arrival and Distributed Repair Pressure",
+      "summary": "A centered District 1 arrival title, fair spawning across authored regions, and a 15-enemy repair-pressure cap.",
+      "categories": [
+        {
+          "name": "Area Arrival",
+          "changes": [
+            "ARRIVAL: DISTRICT 1 now appears as a large centered location title with a smooth fade/slide, a 2.5-second readable hold and clean exit during the existing quiet arrival. The crosshair hides while the title is visible and returns afterward. CLEAR THE DISTRICT remains the normal objective notification."
+          ]
+        },
+        {
+          "name": "Spawn Distribution",
+          "changes": [
+            "REPAIR SPAWNS: Existing District 1 volumes now use a shuffled source bag instead of restarting each one-enemy search at the first wall. Safe sources share pressure, consecutive source repeats are avoided when alternatives are valid, and positions still vary within authored regions. Player clearance, zone exclusion and ground/collision safety are preserved."
+          ]
+        },
+        {
+          "name": "Repair Pressure",
+          "changes": [
+            "REPAIR CAP: Reduced the shared configurable active pressure cap from 20 to 15 across all four bands. The 4/3/2/1-second intervals, first-entry encounter latch, no-backlog behavior, stopping at 100, DPS passive timing, projectile filtering and final gate flow remain unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-83",
       "version": "0.1.83",
       "date": "2026-10-05",
