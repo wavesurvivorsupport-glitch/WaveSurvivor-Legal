@@ -1,6 +1,28 @@
 {
   "updates": [
     {
+      "id": "v0-1-71",
+      "version": "0.1.71",
+      "date": "2026-10-04",
+      "headline": "v0.1.71 — Contextual Event Progress and Timer Bar",
+      "summary": "Active Story requirements now share a compact top-center display with a persistent event icon, clear progress, and countdown direction.",
+      "categories": [
+        {
+          "name": "HUD",
+          "changes": [
+            "Added one compact top-center contextual event bar with a persistent category icon, readable label, and current progress or remaining time.",
+            "Existing Explore kills and Core defense progress fill left to right; the existing Core travel timer drains right to left with an MM:SS countdown. Combat is red, defense yellow, and travel cyan."
+          ]
+        },
+        {
+          "name": "Developer",
+          "changes": [
+            "Added shared event snapshots and optional Chapter 1 preview categories, including Boss countdown styling. Gameplay targets and timings, Boss HP, temporary objectives, the lower HUD, minimap, and card choices retain their existing systems."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-70",
       "version": "0.1.70",
       "date": "2026-10-04",
