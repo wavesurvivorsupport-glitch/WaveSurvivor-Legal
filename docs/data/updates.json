@@ -1,6 +1,33 @@
 {
   "updates": [
     {
+      "id": "v0-1-70",
+      "version": "0.1.70",
+      "date": "2026-10-04",
+      "headline": "v0.1.70 — Larger Player HUD and Chapter District Minimap",
+      "summary": "The compact player HUD is easier to read, and the Chapter 1 minimap frames each district while retaining a smooth whole-chapter overview.",
+      "categories": [
+        {
+          "name": "HUD",
+          "changes": [
+            "HUD: Increased the compact player HUD to 1.3x while preserving its bottom-center position, internal proportions, and independent minimap size."
+          ]
+        },
+        {
+          "name": "Minimap",
+          "changes": [
+            "MINIMAP: Chapter 1 now frames the entire current district with modest edge padding and returns to the whole-chapter overview in corridors. Framing uses the authored district geometry and transitions smoothly."
+          ]
+        },
+        {
+          "name": "Developer",
+          "changes": [
+            "DEVELOPER: Added Automatic, Whole Chapter, and District 1-1 through 1-5 preview choices in Chapter1_Blockout. Existing player-arrow rotation and enemy/Core marker systems are retained."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-69",
       "version": "0.1.69",
       "date": "2026-10-04",
