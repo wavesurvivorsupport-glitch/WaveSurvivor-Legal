@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-68",
+      "version": "0.1.68",
+      "date": "2026-10-04",
+      "headline": "v0.1.68 — Chapter 1 Map Blockout Prototype",
+      "summary": "A separate flat Chapter 1 test scene is ready for first-person evaluation of district scale, corridor width, and travel distance.",
+      "categories": [
+        {
+          "name": "Developer Prototype",
+          "changes": [
+            "Four outer districts form a controlled route from 1-1 through 1-4, ending at a central 1-5 arena that is nearly twice the area of the largest outer district.",
+            "Every connection is open for this layout test. The corridors are 14 units wide, with an angled final approach into the arena and no gameplay elevation.",
+            "The isolated scene uses neutral blockout geometry and a scene-only first-person walkthrough speed of 10. Existing gameplay scenes and Story progression remain unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-67",
       "version": "0.1.67",
       "date": "2026-10-04",
