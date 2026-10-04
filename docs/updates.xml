@@ -6,6 +6,13 @@
     <description>Official WaveSurvivor patch notes from Haider Games</description>
     <language>en-us</language>
     <item>
+      <title>v0.1.67 — Chapter 1 Mission Map</title>
+      <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-67.html</link>
+      <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-67.html</guid>
+      <description>Offline Story now opens a connected Chapter 1 mission route directly, with automatic campaign saving behind the scenes.</description>
+      <pubDate>Sun, 04 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>v0.1.66 — Chapter 1 Mission Progression Framework</title>
       <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-66.html</link>
       <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-1-66.html</guid>

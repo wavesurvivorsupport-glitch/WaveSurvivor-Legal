@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-67",
+      "version": "0.1.67",
+      "date": "2026-10-04",
+      "headline": "v0.1.67 — Chapter 1 Mission Map",
+      "summary": "Offline Story now opens a connected Chapter 1 mission route directly, with automatic campaign saving behind the scenes.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "The Chapter 1 map displays Missions 1-1 through 1-6 with clear completed, current, and locked states. Only the current mission can be entered.",
+            "Mission 1-5 has a distinct Core Defense identity, and Mission 1-6 is presented as the Boss finale.",
+            "Story no longer asks players to choose a save slot. The selected operative and continuous Chapter build persist automatically, while existing legacy Story saves remain preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-66",
       "version": "0.1.66",
       "date": "2026-10-04",
