@@ -1,6 +1,28 @@
 {
   "updates": [
     {
+      "id": "v0-1-80",
+      "version": "0.1.80",
+      "date": "2026-10-05",
+      "headline": "v0.1.80 — Reusable Chapter Objective Foundation",
+      "summary": "Reusable world/minimap waypoints and rectangular floor zones are ready for development preview, with authored Chapter locations preserved.",
+      "categories": [
+        {
+          "name": "Objective Foundation",
+          "changes": [
+            "CHAPTER FOUNDATION: Added reusable objective waypoints with configurable labels, category icons, optional distance, and off-screen direction indicators. One target API drives both the world indication and the existing Chapter minimap.",
+            "CHAPTER FOUNDATION: Added reusable rectangular ObjectiveZone detection and an original floor border with subtle translucent fill. Authored footprints stay intact, jumping remains inside the taller detection area, and 5×5 zones can resize to 3×3 at runtime."
+          ]
+        },
+        {
+          "name": "Development Preview",
+          "changes": [
+            "DEVELOPMENT: Chapter1_Blockout now provides preview actions for the authored signal and door targets, zone visibility, and zone sizes. Existing HUD, district/corridor framing, combat prototype, and gate flow remain intact; signal repair, moving zones, ambushes, door interactions, and the new District 1 mission sequence are future work."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-79",
       "version": "0.1.79",
       "date": "2026-10-05",
