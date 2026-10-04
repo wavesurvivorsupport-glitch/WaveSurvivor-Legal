@@ -1,6 +1,29 @@
 {
   "updates": [
     {
+      "id": "v0-1-74",
+      "version": "0.1.74",
+      "date": "2026-10-04",
+      "headline": "v0.1.74 — Chapter 1-1 First Playable Combat Slice",
+      "summary": "District 1-1 now plays as a real 10 → 10 → 20 combat sequence, then opens its authored corridor gate after 40 legitimate kills.",
+      "categories": [
+        {
+          "name": "Chapter 1-1",
+          "changes": [
+            "Chapter1_Blockout starts at the authored District 1-1 marker with the original corridor exit sealed by two moving wall sections.",
+            "The real player weapon, canonical enemy damage/death pipeline, and normal XP remain active while three non-overlapping batches spawn from the authored District 1-1 regions: 10 enemies, then 10, then 20.",
+            "Only legitimate enemies owned by this encounter advance the continuous DEFEAT ENEMIES 0/40 objective. After 40/40, the two original gate walls smoothly return to their authored open transforms and the corridor is traversable."
+          ]
+        },
+        {
+          "name": "HUD",
+          "changes": [
+            "The existing compact HUD, Chapter minimap framing, objective notifications, contextual event bar, card presentation, and other Story phases are preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-73",
       "version": "0.1.73",
       "date": "2026-10-04",
