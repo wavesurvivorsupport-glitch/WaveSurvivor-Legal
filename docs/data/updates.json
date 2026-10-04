@@ -1,6 +1,28 @@
 {
   "updates": [
     {
+      "id": "v0-1-72",
+      "version": "0.1.72",
+      "date": "2026-10-04",
+      "headline": "v0.1.72 — Objective Notifications Above the Minimap",
+      "summary": "Objectives briefly appear above the minimap, then slide behind it, while current objective details remain available in Pause.",
+      "categories": [
+        {
+          "name": "HUD",
+          "changes": [
+            "HUD: Replaced large objective announcements with a compact notification directly above the minimap. It enters smoothly, stays readable for five seconds, and slides down behind the map.",
+            "HUD: New objectives cleanly replace the current notification. The active objective and Core details remain available in Pause after the notification hides; progress and timers retain their contextual event bar."
+          ]
+        },
+        {
+          "name": "Developer",
+          "changes": [
+            "DEVELOPER: Added Explore, Reach the Core, Defend the Core, and Boss notification previews in Chapter1_Blockout. The compact 1.3x player HUD, minimap framing and markers, cards, combat, and mission timing are preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-71",
       "version": "0.1.71",
       "date": "2026-10-04",
