@@ -1,6 +1,28 @@
 {
   "updates": [
     {
+      "id": "v0-1-75",
+      "version": "0.1.75",
+      "date": "2026-10-04",
+      "headline": "v0.1.75 — Achievement Bonuses Separate from Story",
+      "summary": "Story still builds the shared achievement record, while permanent achievement Combat Power now applies only to Endless runs.",
+      "categories": [
+        {
+          "name": "Achievements",
+          "changes": [
+            "Story and Endless still share achievement progress, including Total Kills completion and the existing thresholds and UI.",
+            "Permanent achievement-earned Combat Power now affects Endless only. Story ignores those account bonuses so every player starts from the same achievement-independent campaign baseline."
+          ]
+        },
+        {
+          "name": "Developer",
+          "changes": [
+            "Reset the local development achievement profile to zero for fresh testing. The previous local profile is archived in a development-only backup; player saves and Steam/platform achievements are not reset."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-74",
       "version": "0.1.74",
       "date": "2026-10-04",
