@@ -1,6 +1,28 @@
 {
   "updates": [
     {
+      "id": "v0-1-82",
+      "version": "0.1.82",
+      "date": "2026-10-05",
+      "headline": "v0.1.82 — DPS Aim Alignment and Progressive Repair Pressure",
+      "summary": "Primary shots follow the compact crosshair, while District 1 repair pressure increases through three configurable bands.",
+      "categories": [
+        {
+          "name": "DPS Aim",
+          "changes": [
+            "DPS AIM: Real primary shots now match the existing compact one-, two-, and three-projectile crosshair markers. Shared marker-to-camera aim drives muzzle convergence, with close-cover obstruction checks; weapon damage, speed, range, crit and projectile counts are unchanged."
+          ]
+        },
+        {
+          "name": "District 1 Repair",
+          "changes": [
+            "DISTRICT 1: Repair enemy pressure now rises with progress: below 50 uses a four-second spawn interval and cap four; 50 to below 75 uses two seconds and cap five; 75 to below 100 uses one second and cap six. Thresholds, intervals and caps are configurable.",
+            "DISTRICT 1: Preserved authored spawn sources, six-unit player clearance, active-zone avoidance and legitimate enemy/XP ownership. Capped attempts do not queue bursts, and new pressure spawning still stops at 100 before Finalize Repairs. The established mission, zone, HUD, cards, minimap and gate flow remain unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-81",
       "version": "0.1.81",
       "date": "2026-10-05",
