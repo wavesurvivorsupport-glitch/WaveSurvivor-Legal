@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-1-73",
+      "version": "0.1.73",
+      "date": "2026-10-04",
+      "headline": "v0.1.73 — Card Choice Entrance and Selection Animation",
+      "summary": "Larger card choices rise into the bottom-left corner, confirm the selected upgrade, and drop away while gameplay continues.",
+      "categories": [
+        {
+          "name": "Cards",
+          "changes": [
+            "Gameplay card offers now rise smoothly from below the screen into a larger bottom-left presentation, retaining their existing rarity colors, stat icons, and card information.",
+            "The selected card receives a small scale emphasis while unselected cards drop away. The selected card then exits downward, and the entire presentation hides.",
+            "Input is locked during the exit so each upgrade applies once. Queued offers enter after the previous presentation finishes, including offers that arrive during its exit.",
+            "Gameplay remains active. Card stats, rarity generation, rewards, XP, saves, and the existing compact HUD, minimap, objective notifications, and contextual progress bar are preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-72",
       "version": "0.1.72",
       "date": "2026-10-04",
