@@ -1,6 +1,29 @@
 {
   "updates": [
     {
+      "id": "v0-1-79",
+      "version": "0.1.79",
+      "date": "2026-10-05",
+      "headline": "v0.1.79 — Chapter 1-1 Playtest Polish",
+      "summary": "Larger player HUD, smaller tighter card choices, sealed gate backing and progressively revealed combat targets.",
+      "categories": [
+        {
+          "name": "HUD and Cards",
+          "changes": [
+            "HUD: Compact Player HUD increased from 1.3 to 1.6. Armor and HP keep their width, use 0.9 height scale, and sit closely together; LEVEL UP now appears above the vitals.",
+            "CARDS: Bottom-left card choices now use a smaller 1.2 presentation with tighter spacing and fit beside the player HUD. Existing selection, animations, and queued offers remain intact."
+          ]
+        },
+        {
+          "name": "Chapter 1-1",
+          "changes": [
+            "CHAPTER 1-1: Reused the tested backing-wall arrangement to seal gaps around the closed gate while keeping its original opening animation and clear corridor passage.",
+            "CHAPTER 1-1: Combat remains 10 → 10 → 20, but progress now reveals cumulative targets as 0/10 → 10/20 → 20/40 → 40/40. All 40 legitimate kills still open the exit."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-78",
       "version": "0.1.78",
       "date": "2026-10-04",
