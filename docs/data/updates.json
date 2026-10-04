@@ -1,6 +1,33 @@
 {
   "updates": [
     {
+      "id": "v0-1-83",
+      "version": "0.1.83",
+      "date": "2026-10-05",
+      "headline": "v0.1.83 — Repair Encounter Pressure and Projectile Safety",
+      "summary": "First-entry repair pressure, four stronger spawn bands, non-blocking objective zones and DPS passive downtime support.",
+      "categories": [
+        {
+          "name": "Repair Encounter",
+          "changes": [
+            "DISTRICT 1: Repair pressure begins on the first signal-zone entry. After that, spawning continues even outside the zone until repair reaches 100; leaving pauses repair progress only. Four configurable intervals now use 4/3/2/1 seconds across 0–25/25–50/50–75/75–100, with a configurable active cap of 20 and no queued spawn bursts."
+          ]
+        },
+        {
+          "name": "Projectile Safety",
+          "changes": [
+            "PROJECTILE SAFETY: Objective detection volumes are excluded from Micro-Grenade impact queries and DPS primary flight. Grenades can cross static and moving repair zones while player occupancy remains functional; the floor visual remains non-colliding."
+          ]
+        },
+        {
+          "name": "DPS Passive",
+          "changes": [
+            "DPS PASSIVE: Existing grace/decay timing now freezes through Chapter-controlled downtime before repair begins and after surviving repair enemies are cleared. Timing resumes for the repair encounter and remains active outside the zone and while survivors remain after 100. Mission transitions neither reset nor grant stacks."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-82",
       "version": "0.1.82",
       "date": "2026-10-05",
