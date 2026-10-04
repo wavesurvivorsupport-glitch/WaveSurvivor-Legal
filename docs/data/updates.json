@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-1-66",
+      "version": "0.1.66",
+      "date": "2026-10-04",
+      "headline": "v0.1.66 — Chapter 1 Mission Progression Framework",
+      "summary": "Offline Story now has the Chapter 1 progression foundation for six ordered missions while the current combat remains available as a legacy flow.",
+      "categories": [
+        {
+          "name": "Story",
+          "changes": [
+            "The new Chapter path tracks Missions 1-1 through 1-6 in order and waits for each mission's authored completion event before offering Continue.",
+            "Continue preserves the Chapter build and creates a mission-start checkpoint. Restart after death restores that checkpoint, while save and resume retain the current mission and build.",
+            "Existing Offline Story combat and saves continue through the legacy flow; no current Explore, Core, or Boss event completes Mission 1-1."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-65",
       "version": "0.1.65",
       "date": "2026-10-03",
