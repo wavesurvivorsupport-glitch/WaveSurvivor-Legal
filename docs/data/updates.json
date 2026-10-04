@@ -1,6 +1,34 @@
 {
   "updates": [
     {
+      "id": "v0-1-69",
+      "version": "0.1.69",
+      "date": "2026-10-04",
+      "headline": "v0.1.69 — Compact Gameplay HUD Foundation",
+      "summary": "A compact lower HUD and smaller bottom-right minimap give the game world more room, with a development preview for the new Chapter 1 blockout.",
+      "categories": [
+        {
+          "name": "HUD",
+          "changes": [
+            "HUD: Replaced the spread-out lower display with a compact bottom-center unit: vertical XP on the left, Armor above HP, and four equal Passive / Ability 1 / Ability 2 / Ultimate slots below.",
+            "HUD: Health and Armor numbers stay readable inside full or empty bars. Detailed combat stats now appear in Pause instead of occupying the gameplay screen."
+          ]
+        },
+        {
+          "name": "Minimap",
+          "changes": [
+            "MINIMAP: Moved the map from the top-right to a smaller bottom-right frame with comfortable padding. Existing player, Core, enemy, rotation, and tactical map behavior is retained."
+          ]
+        },
+        {
+          "name": "Developer",
+          "changes": [
+            "DEVELOPER: Chapter1_Blockout now previews the shared HUD with clearly labeled sample values in Editor and Development builds. The existing blockout geometry, combat, XP balance, and Chapter flow are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-68",
       "version": "0.1.68",
       "date": "2026-10-04",
