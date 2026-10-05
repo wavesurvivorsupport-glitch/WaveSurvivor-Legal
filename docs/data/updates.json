@@ -1,6 +1,27 @@
 {
   "updates": [
     {
+      "id": "v0-1-86",
+      "version": "0.1.86",
+      "date": "2026-10-05",
+      "headline": "v0.1.86 — Repair Completion Cleanup Gate",
+      "summary": "Clear surviving repair-pressure enemies before Finalize Repairs becomes available.",
+      "categories": [
+        {
+          "name": "Repair Completion",
+          "changes": [
+            "DISTRICT 1: At 100/100 communications repair, new pressure spawning stops and the player must clear surviving owned repair-pressure enemies before SignalZone_End or FINALIZE REPAIRS activates. The final survivor death immediately unlocks the existing five-second hold; no additional cleanup wave is spawned."
+          ]
+        },
+        {
+          "name": "Combat Timing",
+          "changes": [
+            "DPS PASSIVE: Timing remains active during repair-survivor cleanup and freezes when Finalize Repairs downtime begins. The existing gate, fake escape, ambush, lock recovery and secured completion remain unchanged. Authored standard enemy movement speed 2.5, repair settings, UI and scene transforms are preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-85",
       "version": "0.1.85",
       "date": "2026-10-05",
