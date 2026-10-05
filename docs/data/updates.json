@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-1-89",
+      "version": "0.1.89",
+      "date": "2026-10-05",
+      "headline": "v0.1.89 — District 1 gameplay cleanup",
+      "summary": "Reliable Micro-Grenade enemy impacts, pause-safe district titles, Chapter Bullet Rain targeting and clear communications-repair feedback.",
+      "categories": [
+        {
+          "name": "Gameplay fixes",
+          "changes": [
+            "FIX: Micro-Grenade now detonates on live enemy-owned body and child contacts, including point-blank launch overlap, without duplicate detonation or damage.",
+            "FIX: District arrival titles freeze during Pause and resume their existing animation and crosshair timing afterward.",
+            "FIX: Bullet Rain recognizes authored Chapter district and corridor floors; its placement circle and cast share the validated ground target. Invalid aim still cannot cast.",
+            "NEW: COMMUNICATIONS REPAIRED appears once at 100/100 through the existing objective notification. Survivors still block Finalize Repairs until cleared.",
+            "PRESERVED: District 1 combat/gate flow, the v0.1.88 repair-zone occupancy fix, enemy speed 2.5, and the verified District 2 checkpoint and return blocker."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-88",
       "version": "0.1.88",
       "date": "2026-10-05",
