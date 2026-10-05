@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-1-91",
+      "version": "0.1.91",
+      "date": "2026-10-05",
+      "headline": "v0.1.91 — District 2 entry and Hound introduction",
+      "summary": "Combat waits for real arena entry, rear walls close safely, checkpoint view faces forward, and Hound introduction uses one cumulative total.",
+      "categories": [
+        {
+          "name": "District 2 playtest fixes",
+          "changes": [
+            "FIX: Mission 1-2 waits for the player to fully cross the authored District 2 arena-entry boundary; checkpoint spawning and corridor travel no longer start combat early.",
+            "NEW: The authored District 2 Boundary 4 A/B rear walls close symmetrically over 1.5 seconds after safe entry, preserving their exact saved open positions. Restart restores the rear gate open.",
+            "FIX: District 2 entry and Practice interaction/stand footprints are enabled invisible triggers and ignored by weapon queries. Checkpoint markers, return blocker and solid Practice barriers retain their intended roles.",
+            "FIX: Mission 1-2 checkpoint spawn resets camera pitch to level and faces the arena using authored spatial context, then resumes normal camera control.",
+            "IMPROVED: Clearing ten Normals gives a configurable 2.5-second SOMETHING HAS YOUR SCENT beat. Hound groups stay 1/3/3/5 with one continuous ELIMINATE HOUNDS counter from 0/12 to 12/12.",
+            "PRESERVED: Practice Machine firing, Thrower tuning, forward Boundary 3 exit, District 1, current HUD/minimap and authored geometry. Mission 1-3 remains unimplemented."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-90",
       "version": "0.1.90",
       "date": "2026-10-05",
