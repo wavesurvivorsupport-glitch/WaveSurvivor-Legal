@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-1-93",
+      "version": "0.1.93",
+      "date": "2026-10-05",
+      "headline": "v0.1.93 - District 2 combat polish",
+      "summary": "Grounded stationary Throwers, stronger Hound pressure, reliable grenade contacts and subtle Bullet Rain target fill.",
+      "categories": [
+        {
+          "name": "Combat and presentation",
+          "changes": [
+            "FIX: District 2 Throwers now ground their capsule feet on the playable floor while preserving each authored A/B/C/D horizontal marker location.",
+            "IMPROVED: Throwers remain stationary, continuously face the player horizontally and freeze only their visual locomotion pose. Their rendered feet align with the grounded capsule; held Normals present above a centered upper-body anchor.",
+            "TUNING: Main-encounter Hound pressure now uses a configurable 3-second interval and active cap 12. Capped attempts are discarded and new spawning stops when all four Throwers die.",
+            "FIX: Micro-Grenade retains query-driven impacts before physical contact response, makes every projectile collider nonblocking, handles saturated contact-query buffers and accepts live enemy body/child contacts. Held or stationary disabled AI no longer receives knockback; one detonation and ObjectiveZone filtering remain.",
+            "IMPROVED: Valid Bullet Rain placement retains its outline and adds a subtle 12-percent cyan fill at the identical ground target and radius, without colliders. Invalid previews hide both.",
+            "PRESERVED: Incoming enemy damage, four Throwers with 1000 HP, one real payload, existing reload/preparation/arc timings and HP persistence, Practice UX and gates. The truthful owned-survivor cleanup counter remains unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-92",
       "version": "0.1.92",
       "date": "2026-10-05",
