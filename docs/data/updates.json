@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-1-88",
+      "version": "0.1.88",
+      "date": "2026-10-05",
+      "headline": "v0.1.88 — Moving Repair Zone Edge Occupancy",
+      "summary": "Partially standing over the moving repair zone now counts when the player's physical controller overlaps the visible area.",
+      "categories": [
+        {
+          "name": "Gameplay fix",
+          "changes": [
+            "Moving Communications Repair now counts the player's actual CharacterController footprint overlapping the zone, so repair continues while partly standing over an edge and stops when clearly outside.",
+            "The moving repair zone remains visually 3x3 with the same vertical allowance, 4-unit movement speed, bounds, repair pacing and projectile filtering. Authored markers and District 1 mission flow are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-87",
       "version": "0.1.87",
       "date": "2026-10-05",
