@@ -1,6 +1,39 @@
 {
   "updates": [
     {
+      "id": "v0-1-85",
+      "version": "0.1.85",
+      "date": "2026-10-05",
+      "headline": "v0.1.85 — District 1 Fake Escape, Ambush and Gate Recovery",
+      "summary": "A false exit leads into a forty-enemy ambush, ordered lock recovery, and genuine District 1 completion.",
+      "categories": [
+        {
+          "name": "Fake Escape",
+          "changes": [
+            "DISTRICT 1: Added the second-half fake escape. Finalize Repairs opens the existing gate and shows DISTRICT 1 CLEARED without completing the mission. A world-only DISTRICT 2 beacon uses the existing off-screen navigation marker."
+          ]
+        },
+        {
+          "name": "Ambush",
+          "changes": [
+            "AMBUSH: The authored player-only one-shot sensor clears the beacon, slides the same gate shut in 0.55 seconds, and presents a two-second red WATCH OUT warning with an original triangle icon. Four configurable groups of ten arrive two seconds apart using the existing fair District 1 spawn sources and safety checks."
+          ]
+        },
+        {
+          "name": "Gate Recovery",
+          "changes": [
+            "RECOVERY: DEFEAT THE AMBUSH tracks 40 legitimate owned deaths; surviving or cleanup-removed enemies cannot falsely complete it. Then restore Left and Right locks in order with two-second continuous holds that reset on exit. The normal 1.5-second gate opening ends with DISTRICT 1 SECURED and genuine runtime completion."
+          ]
+        },
+        {
+          "name": "Existing Flow",
+          "changes": [
+            "PRESERVATION: DPS passive timing resumes for ambush combat and freezes during recovery without changing stacks. Authored transforms, the arrival title, opening clear, repair latch, 15-enemy repair cap, 4/3/2/1 intervals, projectile safety, HUD, cards and crosshair are retained. District 2 gameplay and entry/checkpoint remain future work."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-84",
       "version": "0.1.84",
       "date": "2026-10-05",
