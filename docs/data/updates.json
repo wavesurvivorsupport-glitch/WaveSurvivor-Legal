@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-1-87",
+      "version": "0.1.87",
+      "date": "2026-10-05",
+      "headline": "v0.1.87 — District 2 transition and checkpoint",
+      "summary": "District 1 now leads into a persistent District 2 checkpoint with a safe one-way boundary and restored Chapter progression.",
+      "categories": [
+        {
+          "name": "Offline Chapter 1",
+          "changes": [
+            "NEW: After DISTRICT 1 SECURED, crossing the authored District 2 boundary safely activates an invisible one-way return wall once the player fully clears it.",
+            "NEW: District 2 entry marks Mission 1-1 complete, advances Chapter stage to 1-2 and saves the authored District2CheckpointSpawn through the existing Offline campaign system.",
+            "NEW: Continue and current-stage Restart restore District 2, the return blocker and the earned player build without replaying District 1.",
+            "PRESERVED: District 1 repair cleanup, ambush, lock recovery, HUD and authored standard enemy movement speed 2.5. District 2 gameplay is still to be designed."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-86",
       "version": "0.1.86",
       "date": "2026-10-05",
