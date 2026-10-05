@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-1-94",
+      "version": "0.1.94",
+      "date": "2026-10-05",
+      "headline": "v0.1.94 - Story objective communication",
+      "summary": "Clear replay and role labels, temporary secured announcements, fixed survivor countdowns and authored District 3 navigation.",
+      "categories": [
+        {
+          "name": "Story and mission UI",
+          "changes": [
+            "FIX: Mission role selection now reads SELECT ROLE with a fitted header. Completed-mission development replay uses the simple REPLAY label while retaining zero progression and read-only campaign protection.",
+            "IMPROVED: District 1 ambush guidance reads SURVIVE THE AMBUSH with the existing 40-enemy legitimate kill requirement.",
+            "FIX: DISTRICT 1 SECURED is a temporary announcement; afterward the real DISTRICT 2 objective and the original destination beacon return, including the Pause current objective.",
+            "FIX: District 2 cleanup snapshots owned survivors after the fourth Thrower dies and counts down against a fixed denominator. Zero survivors skip the cleanup bar; all legitimate survivors remain required.",
+            "FIX: DISTRICT 2 SECURED and PRACTICE COMPLETE use temporary feedback. After the secured announcement and gate opening, DISTRICT 3 navigation points to the exact authored Mark destination; Pause displays the real active objective.",
+            "PRESERVED: Authored transforms, repair and gate mechanics, Hound pressure, Thrower tuning, Practice gameplay, replay save protections and enemy speed 2.5. Mission 1-3 gameplay and its persistent transition remain future work."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-93",
       "version": "0.1.93",
       "date": "2026-10-05",
