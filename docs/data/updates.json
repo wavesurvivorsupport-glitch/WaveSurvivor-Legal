@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-1-92",
+      "version": "0.1.92",
+      "date": "2026-10-05",
+      "headline": "v0.1.92 - District 2 Practice guidance and pacing",
+      "summary": "Clear interaction and stand guidance, full objective text, faster resolution-based target cadence and separated launch origins.",
+      "categories": [
+        {
+          "name": "Practice Machine playtest polish",
+          "changes": [
+            "IMPROVED: Practice Machine guidance now uses the authored interaction/stand footprints, with a visible floor border and translucent fill during the relevant step.",
+            "FIX: Entering interaction range shows PRESS followed by the actual bound key and USE PRACTICE MACHINE. Successful use directs the player to MOVE TO PRACTICE POSITION; leaving range removes the use prompt.",
+            "FIX: Objective notifications and waypoint captions fit full gameplay text with bounded width, wrapping and sensible font sizing instead of ellipsis truncation. The minimap and compact HUD retain their layout.",
+            "IMPROVED: Practice groups now launch one second after all current targets resolve, with no overlapping groups or long fixed waiting timer. Pause freezes this delay.",
+            "FIX: The raised and widened authored PracticeLaunchOrigin is used as an oriented launch area. Singles vary, doubles launch from separated ends and triples from left/center/right positions.",
+            "PRESERVED: Ten singles, two doubles, two triples, 20 opportunities, 10/20 pass and retry, existing target arcs/hit-miss rules, Hounds, Throwers, gates and exact authored scene transforms."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-91",
       "version": "0.1.91",
       "date": "2026-10-05",
