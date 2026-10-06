@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-1-95",
+      "version": "0.1.95",
+      "date": "2026-10-06",
+      "headline": "v0.1.95 - Three Offline Story campaigns",
+      "summary": "Three independent Story saves, last-played Continue, safe campaign migration and confirmed individual deletion.",
+      "categories": [
+        {
+          "name": "Offline Story saves",
+          "changes": [
+            "NEW: Offline Story now opens Continue, New Save and Back. Continue resumes your most recently played campaign and is hidden when no campaign exists.",
+            "NEW: Keep up to three independent Story campaigns. Save cards show your role, mission, level and last-played time; empty saves begin through role selection.",
+            "IMPROVED: Existing Chapter progress migrates safely into Save 1, preserving missions, checkpoints, XP, cards, health, armor and role state. Each campaign progresses independently.",
+            "NEW: Delete individual Story saves with a confirmation dialog. Remaining campaigns, achievements, settings and Endless data stay intact.",
+            "PRESERVED: Completed-mission development replay remains read-only with zero progression. Tank and Healer role selection remains unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-94",
       "version": "0.1.94",
       "date": "2026-10-05",
