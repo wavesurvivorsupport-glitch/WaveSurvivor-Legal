@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-1-96",
+      "version": "0.1.96",
+      "date": "2026-10-07",
+      "headline": "v0.1.96 - Mid-mission Story save and resume",
+      "summary": "Save & Exit preserves the current Story mission, enemies, Practice and player build together; Continue resumes the suspended session in its own save slot.",
+      "categories": [
+        {
+          "name": "Offline Story persistence",
+          "changes": [
+            "FIX: Offline Story Save & Exit now preserves your current mission together with XP, cards, health, armor and role state. Continue resumes the suspended session instead of restarting it with advanced progression.",
+            "IMPROVED: Mission 1-1 resumes consumed opening kills, repair and cleanup progress, moving zones, ambush progress, lock recovery and gate state.",
+            "IMPROVED: Mission 1-2 resumes arena entry, Hound progress, Practice score and unresolved targets, surviving Thrower health, held/flying Normals and survivor cleanup.",
+            "FIX: Continue restores player position and view, current objectives and relevant combat HUD. Defeated enemies and resolved targets are not recreated or rewarded again.",
+            "PRESERVED: Suspensions belong to their individual Story save slots. Restart Current Stage intentionally discards the suspension and restores the canonical start/checkpoint. Existing saves remain compatible; development replay stays read-only with zero progression."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-95",
       "version": "0.1.95",
       "date": "2026-10-06",
