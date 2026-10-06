@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-1-98",
+      "version": "0.1.98",
+      "date": "2026-10-07",
+      "headline": "v0.1.98 - District 2 encounter pressure",
+      "summary": "Surviving Throwers accelerate through a fixed timing ladder, with one-second uncapped prototype Hound pressure and unchanged damage/flight.",
+      "categories": [
+        {
+          "name": "District 2 prototype tuning",
+          "changes": [
+            "TUNING: Main District 2 Throwers accelerate as teammates legitimately die: preparation/reload seconds are 4/2 with four alive, 3/1.5 with three, 2/1 with two and 1/0.5 with one.",
+            "IMPROVED: Cadence changes apply immediately to surviving Throwers. Partial reload/preparation segments retain proportional progress without restarting or adding remaining time; duplicate death events cannot accelerate or reward twice.",
+            "TUNING: Main-encounter Hounds now attempt one spawn per second with the active cap explicitly disabled for this prototype. The cap remains configurable for later balancing; all six authored sources and valid-ground/player-clearance rules remain.",
+            "PRESERVED: Pause, inactive phases and missed opportunities do not build a catch-up spawn burst. The fourth legitimate Thrower death stops new Hounds immediately; all existing owned survivors remain required by the fixed cleanup countdown.",
+            "PRESERVED: Four 1000-HP Throwers, one held Normal each, existing flight arcs/destinations/duration, damageability/HP/landing, incoming damage, movement, A/B/C/D HUD, Hound introduction, Practice and navigation. Current suspend/restart behavior remains compatible.",
+            "PROTOTYPE: Unlimited Hound pressure is intentionally aggressive and still requires human balance and sustained performance testing."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-97",
       "version": "0.1.97",
       "date": "2026-10-07",
