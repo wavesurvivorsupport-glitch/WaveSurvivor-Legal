@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-1-97",
+      "version": "0.1.97",
+      "date": "2026-10-07",
+      "headline": "v0.1.97 - Story navigation and Practice guidance",
+      "summary": "Persistent corridor waypoints, physical District 2 minimap handoff, arrival breathing, target orientation and prompt District 3 guidance.",
+      "categories": [
+        {
+          "name": "Navigation and communication",
+          "changes": [
+            "FIX: The real District 2 world destination appears as soon as the recovered District 1 gate opens and stays through the corridor, checkpoint commit and district title. Physical arena entry takes over navigation and the Pause objective.",
+            "FIX: District 2 minimap framing uses its authored floor bounds instead of outlying boundary-group visuals. Corridor overview remains until genuine arena entry, then the existing minimap smoothly frames District 2.",
+            "IMPROVED: District 2 opening combat starts after a configurable 2.5-second breathing beat following gate closure. Player control and the later scent/Hound introduction remain unchanged.",
+            "IMPROVED: Safe Practice stand entry activates barriers and a world-only TARGETS marker at PracticeLaunchOrigin for a configurable 2.5 seconds before the first target. Player view stays free; subsequent groups keep their one-second resolution-based cadence.",
+            "FIX: After true District 2 completion, DISTRICT 3 guidance appears after a configurable one-second handoff, independently of the temporary secured announcement. Its marker remains on the authored District_1_3/Mark destination.",
+            "PRESERVED: Authored transforms, Hound/Thrower tuning, Practice scoring, Story slot/suspend/restart behavior and read-only development replay. Mission 1-3 gameplay and its persistent transition remain future work."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-96",
       "version": "0.1.96",
       "date": "2026-10-07",
