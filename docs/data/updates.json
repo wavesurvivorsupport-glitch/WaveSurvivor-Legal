@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-6",
+      "version": "0.2.6",
+      "date": "2026-10-09",
+      "headline": "v0.2.6 - Chapter mission replay",
+      "summary": "Completed Chapter missions can replay fresh encounters while preserving furthest campaign progress and permanent profile.",
+      "categories": [
+        {
+          "name": "Chapter mission replay",
+          "changes": [
+            "NEW: Completed Chapter Missions 1-1 through 1-5 remain marked COMPLETED and can be selected for REPLAY from NewMenu. Current missions continue normally; locked missions and Boss 1-6 remain unavailable.",
+            "IMPROVED: Replay starts a fresh selected-mission encounter using the current campaign build. Finishing, restarting or exiting replay preserves the furthest campaign progress, checkpoints and normal suspension; completed missions are not relocked.",
+            "PRESERVED: Replay uses the existing isolated, read-only session and Save & Exit safeguards. Permanent profile progression and neighboring Story saves remain untouched. No new objectives, rewards, balance changes or player-facing Story Reset controls."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-5",
       "version": "0.2.5",
       "date": "2026-10-08",
