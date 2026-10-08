@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-3",
+      "version": "0.2.3",
+      "date": "2026-10-08",
+      "headline": "v0.2.3 - DPS Mastery prototype and Story reset",
+      "summary": "A persistent direct-spend DPS Mastery prototype in NewMenu, with free respec and confirmed active-campaign Story reset.",
+      "categories": [
+        {
+          "name": "DPS Mastery prototype",
+          "changes": [
+            "PROTOTYPE: NewMenu now includes a functional DPS Mastery tree: four sequential five-node branches, direct spending of 50 Mastery XP per node, persistent unlocks and a selected-node detail panel. All 20 nodes currently cost 1000 XP in total.",
+            "PROTOTYPE: Primary Attack, Dash, Micro-Grenade and Bullet Rain upgrades use configurable prototype values in the Offline Chapter DPS development flow. RESET MASTERY is free, refunds recorded node costs and preserves lifetime Mastery XP earned.",
+            "NEW: Confirmed RESET STORY on the NewMenu PLAY page restarts only the active Chapter campaign. Permanent profile progression, Mastery unlocks and other Story saves are preserved.",
+            "PRESERVED: The production MainMenu, LATEST, authored Chapter1_Blockout and build startup remain unchanged. Mission rewards, permanent Stats upgrades, final balance and Mission 1-6 remain future work."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-2",
       "version": "0.2.2",
       "date": "2026-10-08",
