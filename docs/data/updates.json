@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-2",
+      "version": "0.2.2",
+      "date": "2026-10-08",
+      "headline": "v0.2.2 - Chapter menu development shell",
+      "summary": "A separate, plain NewMenu development scene for Chapter 1 navigation, shared Credits and recent updates, while the production menu remains unchanged.",
+      "categories": [
+        {
+          "name": "Development menu foundation",
+          "changes": [
+            "DEVELOPMENT: Added a separate NewMenu scene with simple PLAY, MASTERY, STATS and SETTINGS navigation, persistent Credits, scrolling recent Patch Notes and a separate Quit action. The current production menu remains unchanged.",
+            "DEVELOPMENT: PLAY presents the active Chapter 1 campaign with completed/current/locked mission nodes, larger CORE and BOSS nodes, and the existing Chapter1_Blockout launch/resume path. Mission 1-6 remains locked; save-slot persistence is preserved.",
+            "FOUNDATION: Mastery and Stats pages are placeholders only. Existing Settings, profile progression and gameplay systems remain intact; NewMenu is not the production startup scene."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-1",
       "version": "0.2.1",
       "date": "2026-10-08",
