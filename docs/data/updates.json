@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-5",
+      "version": "0.2.5",
+      "date": "2026-10-08",
+      "headline": "v0.2.5 - NewMenu readability pass",
+      "summary": "Saved Player Level beside Credits, wrapped Mastery details and clearer text spacing across the existing 6 × 2 Stats grid.",
+      "categories": [
+        {
+          "name": "NewMenu readability",
+          "changes": [
+            "IMPROVED: The global profile header now shows the saved Player Level next to Credits; Player XP remains hidden.",
+            "IMPROVED: Mastery node labels and the detail panel wrap longer names, descriptions, effects, prerequisites and states inside their panels.",
+            "IMPROVED: Stats keeps the 6 × 2 card grid while giving titles, descriptions, next effects and button states more room to wrap at readable sizes.",
+            "PRESERVED: Menu navigation, saved progression, Stat values and prices, Mastery costs and effects, the production MainMenu and gameplay behavior."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-4",
       "version": "0.2.4",
       "date": "2026-10-08",
