@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-1",
+      "version": "0.2.1",
+      "date": "2026-10-08",
+      "headline": "v0.2.1 - Persistent progression foundation",
+      "summary": "A shared permanent profile foundation for Player XP, Player Level, Credits and direct-spend DPS Mastery XP, plus retirement of DPS fire-rate stacking.",
+      "categories": [
+        {
+          "name": "Progression foundation",
+          "changes": [
+            "FOUNDATION: Added shared permanent player-profile support for Player XP, Player Level, Credits and DPS Mastery XP, separate from the three Story campaigns.",
+            "CHANGED: Retired the DPS temporary stacking Fire Rate passive and its HUD tile. Normal primary fire and abilities retain their existing base behavior.",
+            "FOUNDATION: Credits and direct-spend DPS Mastery XP support safe save/load and spending. Mission rewards, Stats purchases and mastery nodes remain future work; Player Level currently grants no gameplay bonuses."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-99",
       "version": "0.1.99",
       "date": "2026-10-08",
