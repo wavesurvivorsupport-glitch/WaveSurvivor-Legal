@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-1-99",
+      "version": "0.1.99",
+      "date": "2026-10-08",
+      "headline": "v0.1.99 - Temporary Chapter 1-5 skeleton",
+      "summary": "Save-first district transitions, temporary 50-Normal missions, a Core/Thrower placeholder finale and compatible Story suspension.",
+      "categories": [
+        {
+          "name": "Temporary Offline Story route",
+          "changes": [
+            "NEW: The temporary Offline Chapter route now continues through Missions 1-3, 1-4 and 1-5 using the manually authored districts, checkpoints, entries, destination Marks and doors. These encounters are skeletons pending later redesign.",
+            "IMPROVED: Corridor checkpoint crossings save the next mission before its physical entry/title/encounter. Continue from a waiting checkpoint places the player safely just before the authored district entry; rear closure waits for whole-body doorway clearance.",
+            "NEW: Temporary Missions 1-3 and 1-4 each require 50 legitimate Normal kills from their own authored spawn regions. Their paired doors close on arrival and the forward route opens on secured completion.",
+            "NEW: Temporary Mission 1-5 keeps the authored visual Core and reuses four canonical Throwers and owned held/flying/landed Normals. Boundary 6 B closes as a single sliding wall using the authored gap; all Throwers and owned survivors must die.",
+            "NEW: Completed temporary 1-5 is saved before returning to Main Menu. Mission 1-6 stays locked; no Boss or final Core-defense/reward design is added.",
+            "PRESERVED: Three independent Story slots, existing 1-1/1-2 gameplay, restart/build data and read-only replay. Minimal 3/4/5 actor/gate/entry snapshots extend the existing suspend system, and physical floor-based minimap/waypoint handoffs retain the current styling. No adaptive pathfinding, Online or Endless changes."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-1-98",
       "version": "0.1.98",
       "date": "2026-10-07",
