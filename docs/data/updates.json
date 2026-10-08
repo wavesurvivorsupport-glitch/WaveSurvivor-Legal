@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-4",
+      "version": "0.2.4",
+      "date": "2026-10-08",
+      "headline": "v0.2.4 - Permanent DPS Stats prototype",
+      "summary": "Twelve Credit-based permanent DPS Stats cards, exclusive recovery paths and confirmed Armor recharge/refill timings in the development NewMenu.",
+      "categories": [
+        {
+          "name": "Permanent DPS Stats prototype",
+          "changes": [
+            "PROTOTYPE: NewMenu STATS now offers twelve permanent DPS upgrade cards. Each rank costs 100 Credits with configurable prototype values, saved ranks and immediate balance updates.",
+            "NEW: HP Regen and Lifesteal are exclusive permanent recovery paths: the first rank locks the other. HP/Armor capacities, AD/AP, primary Fire Rate, movement, ability CDR, Crit Chance and traveling-projectile speed compose with existing Mastery and temporary card systems.",
+            "PROTOTYPE: DPS Armor waits five seconds after damage, then refills from empty over four base seconds. Armor Recovery ranks reduce refill duration to 3.6, 3.2, 2.8 and 2.4 seconds; global CDR affects neither recharge delay nor refill.",
+            "CHANGED: Removed the temporary RESET STORY controls from NewMenu PLAY. Canonical saves remain intact; mission replay and rewards are future work. The production menu, legacy scenes and build startup remain unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-3",
       "version": "0.2.3",
       "date": "2026-10-08",
