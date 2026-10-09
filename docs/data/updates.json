@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-9",
+      "version": "0.2.9",
+      "date": "2026-10-09",
+      "headline": "v0.2.9 - Chapter Rank-0 combat baseline",
+      "summary": "Prototype fresh DPS, Normal, Hound and stationary Thrower tuning, fixed Thrower cadence and a finite Bullet Rain tick budget. Pending manual feel testing.",
+      "categories": [
+        {
+          "name": "Combat Balance Pass 1",
+          "changes": [
+            "PROTOTYPE: Chapter 1 fresh DPS now uses 100 HP, zero Armor, 5 movement speed and 10 primary damage at 3 shots/sec. Crit remains 0% with a 2x multiplier; Regen/Lifesteal remain zero. Dash cooldown is 5 seconds and fresh Micro-Grenade damage is 30 with a 10-second cooldown.",
+            "PROTOTYPE: Bullet Rain delivers exactly 12 base ticks of 5 damage across 6 seconds at 0.5-second intervals, with a 20-second cooldown. Its initial tick is included in the finite Chapter tick budget.",
+            "PROTOTYPE: Chapter Normal enemies use 100 HP / 5 speed / 5 damage; Hounds use 75 HP / 5.5 speed, plus 0.5 while flanking / 10 damage. Stationary Throwers use 500 HP, fixed 1-second preparation / 4-second reload and 30 melee damage; alive-count cadence is retired.",
+            "PRESERVED: Permanent Stats/Mastery tuning, authored ability geometry, mission populations, spawn pacing, Armor recovery and legacy combat assets remain unchanged. No progression-based enemy scaling is added. Balance Pass 1 is pending manual feel testing."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-8",
       "version": "0.2.8",
       "date": "2026-10-09",
