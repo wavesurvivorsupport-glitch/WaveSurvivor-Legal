@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-13",
+      "version": "0.2.13",
+      "date": "2026-10-09",
+      "headline": "v0.2.13 - Mission 1-1 communications repair pacing",
+      "summary": "A 50-point communications objective with 25 static and 25 moving points, plus 4-second static and 2-second moving enemy pressure. Combat balance is unchanged.",
+      "categories": [
+        {
+          "name": "Communications repair pacing",
+          "changes": [
+            "CHANGED: Mission 1-1 Repair Communications now requires 50 total points: 25 static points, followed by 25 moving points. Movement starts at 25 and repair completes at 50; HUD progress uses the same 50-point total.",
+            "PACING: Repair pressure uses one Normal enemy every 4 seconds during the static phase and every 2 seconds during the moving phase, retaining existing spawn caps and location rules.",
+            "PRESERVED: Communications movement, later objectives, enemy/player balance, abilities, Stats, Mastery, rewards and weapon visuals are unchanged. Continue applies the new thresholds to saved repair progress, including older suspensions, while Restart and replay use the same updated mission flow."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-12",
       "version": "0.2.12",
       "date": "2026-10-09",
