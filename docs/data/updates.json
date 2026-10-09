@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-17",
+      "version": "0.2.17",
+      "date": "2026-10-10",
+      "headline": "v0.2.17 - Chapter developer God Mode",
+      "summary": "Developer-only Chapter shortcut for invulnerability and instant ability cooldowns, with a small status indicator. Combat balance and progression remain unchanged.",
+      "categories": [
+        {
+          "name": "Developer tooling",
+          "changes": [
+            "DEVELOPER TOOLING: Ctrl + Alt + Backspace toggles Chapter 1 God Mode in Unity Editor and Development Builds. The existing developer console now provides a standalone shortcut with a small GOD MODE status indicator; normal release players cannot activate it.",
+            "TESTING: Enabled God Mode ignores incoming player damage and clears Dash, Micro-Grenade and Bullet Rain cooldowns through the existing developer helpers. Turning it off restores normal cooldown behavior for subsequent casts. Scene changes clear the override.",
+            "PRESERVED: Combat damage and configured cooldowns, v0.2.16 balance, mission flow, checkpoints, rewards, permanent Stats/Mastery, saved progression, legacy scenes and production Build Settings are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-16",
       "version": "0.2.16",
       "date": "2026-10-09",
