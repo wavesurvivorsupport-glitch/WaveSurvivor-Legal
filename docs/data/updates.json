@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-8",
+      "version": "0.2.8",
+      "date": "2026-10-09",
+      "headline": "v0.2.8 - Chapter HUD cleanup",
+      "summary": "Retired run XP stays hidden and Chapter Armor appears only when live effective Armor capacity exists.",
+      "categories": [
+        {
+          "name": "Chapter HUD",
+          "changes": [
+            "FIX: Chapter 1 hides the retired run/card XP bar, XP display and run-level badge during HUD setup and live refresh, including before combat bindings are ready.",
+            "IMPROVED: Chapter Armor HUD visibility follows live effective capacity. Zero capacity hides the entire bar; positive capacity remains visible when empty, such as 0/20. Runtime and temporary Armor changes refresh without a scene reload.",
+            "PRESERVED: Armor values, recharge delay, refill timing, Armor Recovery ranks and permanent progression remain unchanged. Legacy HUD paths and production scenes are preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-7",
       "version": "0.2.7",
       "date": "2026-10-09",
