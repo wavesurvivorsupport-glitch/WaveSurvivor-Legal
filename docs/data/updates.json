@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-2-12",
+      "version": "0.2.12",
+      "date": "2026-10-09",
+      "headline": "v0.2.12 - Chapter Normal HP and movement tuning",
+      "summary": "Chapter Normal enemies move at 4.5 and have 90 HP while damage remains 5. Fresh DPS and all other combat systems are unchanged.",
+      "categories": [
+        {
+          "name": "Combat Balance Pass 1.2",
+          "changes": [
+            "TUNING: New Chapter 1 Normal enemies now use 90 HP and 4.5 movement speed, reduced from 100 HP and 4.8. Damage remains 5; attack range, cooldown and navigation are unchanged.",
+            "PRESERVED: Fresh DPS retains 10 primary damage, 3 shots/sec and 5 movement speed. Nine primary hits give an idealized 2.67-second kill time with the first shot at t=0. Hounds, Throwers, abilities, Stats, Mastery, encounter pacing and the close-range firing fix/muzzle/tracer presentation are unchanged. Balance Pass 1.2 awaits manual feel testing."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-11",
       "version": "0.2.11",
       "date": "2026-10-09",
