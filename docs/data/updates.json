@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-11",
+      "version": "0.2.11",
+      "date": "2026-10-09",
+      "headline": "v0.2.11 - DPS point-blank hit detection",
+      "summary": "Camera-side primary hit detection fixes close-range blind spots while preserving the authored weapon muzzle and tracer presentation.",
+      "categories": [
+        {
+          "name": "Primary hit geometry",
+          "changes": [
+            "FIX: DPS primary hit detection now follows camera/crosshair aim from the player side, detecting valid point-blank targets between the eye and muzzle or overlapping the shot origin.",
+            "FIX: Twin/Triple Shot share the corrected hit query. Enemy Tracker resolves immediate close contact without losing ordinary muzzle-launched projectile travel.",
+            "PRESERVED: The authored weapon muzzle, first-person firing presentation and tracer renderer remain unchanged. Visual tracers still start at the existing muzzle and travel toward the resolved hit point; ordinary miss presentation is retained. Damage, fire rate, Crit, Stats, Mastery and enemy balance are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-10",
       "version": "0.2.10",
       "date": "2026-10-09",
