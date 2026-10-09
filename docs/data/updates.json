@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-7",
+      "version": "0.2.7",
+      "date": "2026-10-09",
+      "headline": "v0.2.7 - Chapter temporary cards retired",
+      "summary": "New Chapter 1 uses Permanent Stats and DPS Mastery, with safe retirement of run XP, temporary cards and obsolete card save restoration.",
+      "categories": [
+        {
+          "name": "Chapter progression",
+          "changes": [
+            "CHANGED: NewMenu Chapter 1 gameplay now uses Permanent Stats and DPS Mastery. Temporary run XP/levels, card offers, Core card rewards and the card-only XP/level HUD are retired from this development path.",
+            "FIX: Chapter Continue, Restart and replay safely ignore obsolete selected cards and queued offers, including mission-start snapshots. Loading old card data alone does not rewrite the save or grant rewards.",
+            "PRESERVED: Permanent profile resources, Stats/Mastery effects and isolated replay remain intact. Legacy menus, LATEST, Endless and their card code/assets retain compatibility. Mission resource rewards are still future work."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-6",
       "version": "0.2.6",
       "date": "2026-10-09",
