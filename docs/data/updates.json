@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-18",
+      "version": "0.2.18",
+      "date": "2026-10-10",
+      "headline": "v0.2.18 - Developer God Mode shortcut conflict fix",
+      "summary": "Chapter God Mode no longer shares Backspace with the runtime Rendering Debugger. Scoped F12 debugger controls preserve intentional debugging.",
+      "categories": [
+        {
+          "name": "Developer tooling fix",
+          "changes": [
+            "DEVELOPER FIX: Ctrl + Alt + Backspace now toggles Chapter God Mode without triggering the runtime Rendering Debugger. In offline Chapter1_Blockout, the debugger keyboard toggle is Ctrl + F12 and its reset is Alt + F12.",
+            "SCOPED: Original debugger bindings are restored when leaving Chapter gameplay. Gamepad, touch and Editor debugging remain available; no rendering packages or project input settings are changed. God Mode remains Editor/Development Build only.",
+            "PRESERVED: Invulnerability, instant ability cooldowns, GOD MODE indicator, combat balance, missions, rewards, save progression and production Build Settings are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-17",
       "version": "0.2.17",
       "date": "2026-10-10",
