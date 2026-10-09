@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-15",
+      "version": "0.2.15",
+      "date": "2026-10-09",
+      "headline": "v0.2.15 - District 1 completion handoff",
+      "summary": "Three authored corridor points separate durable first-clear rewards, middle-checkpoint results and existing District 2 entry. Prototype rewards are balance pending.",
+      "categories": [
+        {
+          "name": "Chapter completion prototype",
+          "changes": [
+            "NEW: District 1 completion now uses the authored corridor finish, middle checkpoint and District 2 entry as separate handoff points. Successful finish immediately saves Mission 1 completion and unlocks Mission 2 before results appear.",
+            "PROTOTYPE — BALANCE PENDING: Mission 1's first clear grants 150 Credits and 100 DPS Mastery XP from centralized configuration. A profile-wide claim ledger and recoverable completion transaction prevent repeated grants through replay, restart, reload or interrupted saves. No Player XP reward is added.",
+            "NEW: The middle checkpoint shows DISTRICT 1 CLEARED with cosmetic earned → pre-balance → post-balance animations, CONTINUE and MAIN MENU. Continue restores control in the corridor; Main Menu returns to NewMenu and later Continue resumes the middle checkpoint.",
+            "PRESERVED: The authored District 2 entry keeps its existing title, safe rear-gate closure and arrival flow. Current communications, ambush, enemy balance, Stats/Mastery tuning, later missions, legacy scenes and production Build Settings remain intact."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-14",
       "version": "0.2.14",
       "date": "2026-10-09",
