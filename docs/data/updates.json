@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-16",
+      "version": "0.2.16",
+      "date": "2026-10-09",
+      "headline": "v0.2.16 - Chapter Normal HP and Bullet Rain tuning",
+      "summary": "Chapter Normal HP is now 70. Bullet Rain deals 10 base damage per tick for 120 total. All other balance and mission pacing are unchanged.",
+      "categories": [
+        {
+          "name": "Combat Balance Pass 1.4",
+          "changes": [
+            "TUNING: New Chapter 1 Normal HP reduced from 80 to 70. Movement speed remains 4.5 and damage remains 5. Fresh DPS needs seven landed primary hits, giving an idealized 2.00-second kill time with the first shot at t=0.",
+            "TUNING: Chapter DPS Bullet Rain base damage increased from 5 to 10 per tick. The existing 12-tick budget, 0.5-second interval and 6-second duration give 120 base damage; cooldown remains 20 seconds. AP scaling, Stats, Mastery, radius, healing and CDR are unchanged.",
+            "PROTOTYPE — PENDING MANUAL FEEL TEST: All other combat values, enemies, mission pacing, rewards, replay/checkpoints and legacy gameplay remain unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-15",
       "version": "0.2.15",
       "date": "2026-10-09",
