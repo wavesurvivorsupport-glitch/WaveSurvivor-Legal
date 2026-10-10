@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-22",
+      "version": "0.2.22",
+      "date": "2026-10-10",
+      "headline": "0.2.22 - Progression test polish",
+      "summary": "840 first-clear Credits per pre-boss mission and automatic same-branch DPS Mastery node selection after purchasing.",
+      "categories": [
+        {
+          "name": "Prototype progression",
+          "changes": [
+            "IMPROVED: First clears of missions 1-1 through 1-5 now grant 840 Credits and 200 DPS Mastery XP each, totaling 4,200 Credits and 1,000 Mastery XP. District 1 results use the configured reward values.",
+            "IMPROVED: Successful DPS Mastery purchases automatically select the next node in the same branch, even when it is unaffordable. The final node remains selected.",
+            "PRESERVED: Mastery costs/effects, Stats prices/effects and prerequisites are unchanged. First-clear anti-farming and RESET ALL PROGRESS reward-claim behavior remain intact. PROTOTYPE — BALANCE PENDING."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-21",
       "version": "0.2.21",
       "date": "2026-10-10",
