@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-20",
+      "version": "0.2.20",
+      "date": "2026-10-10",
+      "headline": "v0.2.20 - Prototype pre-boss Chapter mission rewards",
+      "summary": "800 Credits and 200 DPS Mastery XP per first clear of missions 1-1 through 1-5, totaling exactly 4,000 Credits and 1,000 Mastery XP. Prototype economy, balance pending.",
+      "categories": [
+        {
+          "name": "Permanent first-clear rewards",
+          "changes": [
+            "PROTOTYPE - BALANCE PENDING: Each first clear of Chapter missions 1-1 through 1-5 grants 800 Credits and 200 DPS Mastery XP. Five clears total exactly 4,000 Credits and 1,000 Mastery XP before spending. No reward is assigned to Mission 1-6; no Player XP or optional objectives are added.",
+            "IMPROVED: Mission 1 preserves its A/B/C handoff and cosmetic results count, now showing +800 Credits and +200 DPS Mastery XP on an unclaimed clear. Missions 2-5 grant at their existing legitimate completion points using the same permanent transaction.",
+            "SAFEGUARDS: Separate profile-wide mission claims prevent repeat grants through replay, Restart, reload, repeated callbacks or Story slot changes. Prepared Story completion journals recover interrupted saves. RESET ALL PROGRESS clears balances, all five claims and pending records. Existing claims are not retroactively topped up.",
+            "PRESERVED: Combat balance, mission encounters/pacing, Stats prices/values, Mastery costs/effects, Player XP/Level, God Mode, replay isolation, legacy scenes and production Build Settings are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-19",
       "version": "0.2.19",
       "date": "2026-10-10",
