@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-24",
+      "version": "0.2.24",
+      "date": "2026-10-10",
+      "headline": "0.2.24 - Replay completion handoff",
+      "summary": "Chapter replay now reaches the District results panel with zero rewards and Continue / Main Menu choices, while preserving canonical progression.",
+      "categories": [
+        {
+          "name": "Chapter replay",
+          "changes": [
+            "FIX: Mission 1 replay completion now reaches the normal District handoff instead of automatically returning to NewMenu.",
+            "IMPROVED: Replay results show DISTRICT 1 CLEARED, +0 Credits and +0 DPS Mastery XP with FIRST-CLEAR REWARD ALREADY CLAIMED. Permanent balances do not animate upward.",
+            "FIX: CONTINUE closes replay results and allows the authored corridor to District 2. At the next boundary, completed missions remain isolated replays; the legitimate current mission reloads its canonical checkpoint/session. MAIN MENU exits safely.",
+            "PRESERVED: First-clear rewards and their normal results animation are unchanged. Replay cannot farm rewards, overwrite later checkpoints or move canonical furthest progression backward."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-23",
       "version": "0.2.23",
       "date": "2026-10-10",
