@@ -3,20 +3,20 @@
 <head>
   <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="description" content="Chapter replay now reaches the District results panel with zero rewards and Continue / Main Menu choices, while preserving canonical progression.">
-  <title>0.2.24 - Replay completion handoff | WaveSurvivor</title>
-  <link rel="canonical" href="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-24.html">
+  <meta name="description" content="The Chapter minimap keeps the player centered, reveals areas through progression and uses larger markers without exposing future Districts during zoom.">
+  <title>0.2.25 - Player-centered minimap and District reveal | WaveSurvivor</title>
+  <link rel="canonical" href="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-25.html">
   <link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../assets/site.css?v=20261001b">
   <link rel="alternate" type="application/rss+xml" title="WaveSurvivor Updates" href="../updates.xml">
   <meta property="og:type" content="website"><meta property="og:site_name" content="WaveSurvivor">
-  <meta property="og:title" content="0.2.24 - Replay completion handoff | WaveSurvivor">
-  <meta property="og:description" content="Chapter replay now reaches the District results panel with zero rewards and Continue / Main Menu choices, while preserving canonical progression.">
-  <meta property="og:url" content="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-24.html">
+  <meta property="og:title" content="0.2.25 - Player-centered minimap and District reveal | WaveSurvivor">
+  <meta property="og:description" content="The Chapter minimap keeps the player centered, reveals areas through progression and uses larger markers without exposing future Districts during zoom.">
+  <meta property="og:url" content="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-25.html">
   <meta property="og:image" content="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/assets/og-card.png">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="0.2.24 - Replay completion handoff | WaveSurvivor">
-  <meta name="twitter:description" content="Chapter replay now reaches the District results panel with zero rewards and Continue / Main Menu choices, while preserving canonical progression.">
+  <meta name="twitter:title" content="0.2.25 - Player-centered minimap and District reveal | WaveSurvivor">
+  <meta name="twitter:description" content="The Chapter minimap keeps the player centered, reveals areas through progression and uses larger markers without exposing future Districts during zoom.">
   <meta name="twitter:image" content="https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/assets/og-card.png">
   <script defer src="../assets/site.js?v=20261001b"></script>
 </head>
@@ -28,7 +28,7 @@
     <a class="header-cta" href="https://store.steampowered.com/app/5170710/WaveSurvivor/" rel="noopener noreferrer">View on Steam ↗</a>
     <details class="mobile-menu"><summary>Menu</summary><nav class="mobile-nav" aria-label="Mobile navigation"><a href="../index.html">Home</a><a href="../index.html#game">Game</a><a href="../index.html#story">Story</a><a href="../index.html#roles">Roles</a><a href="../media.html">Media</a><a href="../updates/index.html" aria-current="page">Updates</a><a href="../index.html#faq">FAQ</a><a href="../support.html">Support</a><a href="https://store.steampowered.com/app/5170710/WaveSurvivor/" rel="noopener noreferrer">View on Steam ↗</a></nav></details>
   </div></header>
-  <main id="main"><section class="content-section"><div class="wrap article"><a class="text-link back" href="index.html">← All updates</a><article class="update-detail"><p class="eyebrow">v0.2.24 · October 10, 2026</p><h1>0.2.24 - Replay completion handoff</h1><p class="lead">Chapter replay now reaches the District results panel with zero rewards and Continue / Main Menu choices, while preserving canonical progression.</p><section class="update-section"><h2>Chapter replay</h2><ul><li>FIX: Mission 1 replay completion now reaches the normal District handoff instead of automatically returning to NewMenu.</li><li>IMPROVED: Replay results show DISTRICT 1 CLEARED, +0 Credits and +0 DPS Mastery XP with FIRST-CLEAR REWARD ALREADY CLAIMED. Permanent balances do not animate upward.</li><li>FIX: CONTINUE closes replay results and allows the authored corridor to District 2. At the next boundary, completed missions remain isolated replays; the legitimate current mission reloads its canonical checkpoint/session. MAIN MENU exits safely.</li><li>PRESERVED: First-clear rewards and their normal results animation are unchanged. Replay cannot farm rewards, overwrite later checkpoints or move canonical furthest progression backward.</li></ul></section></article><nav class="update-navigation" aria-label="Browse updates"><a href="v0-2-25.html">← Newer: 0.2.25 - Player-centered minimap and District reveal</a><a href="v0-2-23.html">Older: v0.2.23 - Chapter heading-up minimap and larger markers →</a></nav></div></section></main>
+  <main id="main"><section class="content-section"><div class="wrap article"><a class="text-link back" href="index.html">← All updates</a><article class="update-detail"><p class="eyebrow">v0.2.25 · October 11, 2026</p><h1>0.2.25 - Player-centered minimap and District reveal</h1><p class="lead">The Chapter minimap keeps the player centered, reveals areas through progression and uses larger markers without exposing future Districts during zoom.</p><section class="update-section"><h2>Chapter minimap</h2><ul><li>FIX: The offline Chapter minimap now keeps the player exactly centered and upright while walking, looking around, zooming and changing Districts. Camera heading remains minimap up.</li><li>IMPROVED: Artwork, enemies, Core and objectives share the same player-centered heading transform. The authored map image and canonical world bounds are unchanged.</li><li>IMPROVED: District 1 starts visible; relevant transition corridors reveal before their destination arenas. Districts 2 through 5 reveal on physical entry, while previously discovered areas remain visible. Zoom cannot expose future District artwork or markers.</li><li>READABILITY: Chapter markers increased to 34-pixel player, 20-pixel enemies, 24-pixel zoomed enemies, 30-pixel Core, 28-pixel objectives and 36-pixel Core edge indicator. Sizes remain centralized in presentation configuration.</li><li>PRESERVED: Core proximity zoom, enemy tracking and Core/objective edge indicators remain compatible with centered heading-up presentation. Combat, progression, rewards, checkpoints, geometry, navigation and other HUD elements are unchanged.</li></ul></section></article><nav class="update-navigation" aria-label="Browse updates"><a href="v0-2-24.html">Older: 0.2.24 - Replay completion handoff →</a></nav></div></section></main>
   <footer class="site-footer"><div class="wrap">
     <div class="footer-grid">
       <div><a class="brand" href="../index.html"><span class="brand-mark" aria-hidden="true">W</span><span>WAVE<b>SURVIVOR</b></span></a><p>A sci-fi FPS built around teamwork, roles and evolving runs.<br>By Haider Games.</p></div>

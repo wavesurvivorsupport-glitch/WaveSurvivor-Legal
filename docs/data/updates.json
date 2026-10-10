@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-2-25",
+      "version": "0.2.25",
+      "date": "2026-10-11",
+      "headline": "0.2.25 - Player-centered minimap and District reveal",
+      "summary": "The Chapter minimap keeps the player centered, reveals areas through progression and uses larger markers without exposing future Districts during zoom.",
+      "categories": [
+        {
+          "name": "Chapter minimap",
+          "changes": [
+            "FIX: The offline Chapter minimap now keeps the player exactly centered and upright while walking, looking around, zooming and changing Districts. Camera heading remains minimap up.",
+            "IMPROVED: Artwork, enemies, Core and objectives share the same player-centered heading transform. The authored map image and canonical world bounds are unchanged.",
+            "IMPROVED: District 1 starts visible; relevant transition corridors reveal before their destination arenas. Districts 2 through 5 reveal on physical entry, while previously discovered areas remain visible. Zoom cannot expose future District artwork or markers.",
+            "READABILITY: Chapter markers increased to 34-pixel player, 20-pixel enemies, 24-pixel zoomed enemies, 30-pixel Core, 28-pixel objectives and 36-pixel Core edge indicator. Sizes remain centralized in presentation configuration.",
+            "PRESERVED: Core proximity zoom, enemy tracking and Core/objective edge indicators remain compatible with centered heading-up presentation. Combat, progression, rewards, checkpoints, geometry, navigation and other HUD elements are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-24",
       "version": "0.2.24",
       "date": "2026-10-10",
