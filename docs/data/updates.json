@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-23",
+      "version": "0.2.23",
+      "date": "2026-10-10",
+      "headline": "v0.2.23 - Chapter heading-up minimap and larger markers",
+      "summary": "Camera look now points up on the Chapter minimap, with larger markers and preserved zoom, tracking and edge indicators.",
+      "categories": [
+        {
+          "name": "Minimap readability",
+          "changes": [
+            "UI: Offline Chapter minimap now uses camera heading-up orientation. The map and world positions rotate around the existing projected player position; the player arrow remains upright and points toward the top. Camera look, not movement velocity, controls heading.",
+            "READABILITY: Chapter player arrow increased from 22 to 28 pixels and enemies from 12 to 16 pixels, with 20-pixel zoomed enemies. Core, objective and edge indicators grow by 25%; sizes are centralized in presentation configuration.",
+            "PRESERVED: Authored map artwork, world bounds, framing/zoom targets and transitions, enemy/Core tracking, and Core/objective edge-clamp paths remain intact. The minimap stays within its frame, icons remain readable, and legacy/online map settings and gameplay are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-22",
       "version": "0.2.22",
       "date": "2026-10-10",
