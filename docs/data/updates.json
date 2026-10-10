@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-2-21",
+      "version": "0.2.21",
+      "date": "2026-10-10",
+      "headline": "0.2.21 - Chapter Normal HP-only balance pass",
+      "summary": "Chapter Normal HP is now 50 while movement speed remains 4.5 and damage remains 5. Five fresh-DPS primary hits; all other combat and pacing preserved.",
+      "categories": [
+        {
+          "name": "Combat Balance Pass 1.5",
+          "changes": [
+            "TUNING: New Chapter Normal HP is reduced from 70 to 50. Movement speed remains 4.5 and damage remains 5; attack range, cooldown and navigation are unchanged.",
+            "PRESERVED: Fresh DPS primary remains 10 damage at 3 shots/sec. Five landed primary shots give an idealized 1.33-second kill time with the first shot at t=0. Hounds, Throwers, enemy counts, spawn and District pacing, player stats, abilities, Bullet Rain, permanent Stats and Mastery are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-20",
       "version": "0.2.20",
       "date": "2026-10-10",
