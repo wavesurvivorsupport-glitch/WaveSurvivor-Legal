@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-19",
+      "version": "0.2.19",
+      "date": "2026-10-10",
+      "headline": "v0.2.19 - Development full progression reset",
+      "summary": "A confirmed NewMenu testing reset restores a fresh profile and Chapter 1-1 while preserving preferences. Development tooling only.",
+      "categories": [
+        {
+          "name": "Developer testing",
+          "changes": [
+            "DEVELOPER TOOLING: NewMenu now has RESET ALL PROGRESS beside QUIT in Unity Editor and Development Builds. A confirmation explains the full wipe; CANCEL or Escape dismisses it without changing progress.",
+            "RESET SCOPE: Confirmation resets Credits, Player XP/Level, available and lifetime DPS Mastery XP, all Mastery nodes, permanent Stats and recovery-path choice, local achievement progress and Chapter reward claims. All Story slots, checkpoints, suspension, replay and obsolete run/card state are cleared; fresh DPS Slot 1 starts at Mission 1-1 with later missions locked.",
+            "SAFETY: Owned progression files are archived, and a durable reset intent completes interrupted resets before saves are read. NewMenu refreshes without restarting. Graphics, audio, keybinds, FOV and other preferences are preserved; no external Steam achievement revocation is performed. Combat balance, normal Mastery respec, legacy menus and production Build Settings are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-18",
       "version": "0.2.18",
       "date": "2026-10-10",
