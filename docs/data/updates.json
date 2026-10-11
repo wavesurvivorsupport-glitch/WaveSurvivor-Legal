@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-30",
+      "version": "0.2.30",
+      "date": "2026-10-11",
+      "headline": "v0.2.30 - District 2 Hound pressure reduction",
+      "summary": "Fewer introductory Hounds and half-rate sustained Hound pressure, with individual Hound behavior and practice-target flight settings preserved.",
+      "categories": [
+        {
+          "name": "District 2 pressure",
+          "changes": [
+            "TUNING: District 2 introductory Hound batches reduced from 1 / 3 / 3 / 5 to 1 / 2 / 2 / 3, totaling 8 instead of 12. The singleton encounter remains intact.",
+            "TUNING: Hound pressure during the four-Thrower encounter now spawns one every two seconds instead of one per second. The active cap remains disabled; individual Hound stats and behavior are unchanged.",
+            "INSPECTED, UNCHANGED: District 2 practice targets use a six-second flight duration for every single, double and triple launch. Actual travel speed depends on the endpoints and arc; no target speed or timing was changed.",
+            "PRESERVED: Opening Normal count, Thrower count/stats, target count, player balance, rewards, objectives and other encounter pressure remain unchanged. Existing suspended groups remain compatible."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-29",
       "version": "0.2.29",
       "date": "2026-10-11",
