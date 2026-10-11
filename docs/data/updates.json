@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-31",
+      "version": "0.2.31",
+      "date": "2026-10-12",
+      "headline": "v0.2.31 - Minimap camera clamp stability",
+      "summary": "Continuity and coverage hysteresis prevent competing Chapter minimap frames from switching sides during camera rotation.",
+      "categories": [
+        {
+          "name": "Minimap stability",
+          "changes": [
+            "FIX: Chapter minimap framing now preserves camera-center continuity while turning. Similar valid coverage solutions prefer the previous framing instead of switching across the District because of tiny score differences.",
+            "STABILITY: A configurable 3% viewport-area coverage hysteresis and 0.75-pixel-per-degree limit on optional yaw-driven translation reduce stationary look-direction swinging. Heading rotation and necessary legal clamp corrections still apply immediately; no delayed camera look is introduced.",
+            "PRESERVED: Clamped following and edge stops, player movement inside the viewport, District reveal rules, Core zoom, marker sizes and shared artwork/marker projection remain intact. No global zoom change, gameplay tuning, reward, checkpoint or geometry changes."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-30",
       "version": "0.2.30",
       "date": "2026-10-11",
