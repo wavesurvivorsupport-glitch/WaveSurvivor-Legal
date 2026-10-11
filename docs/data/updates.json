@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-28",
+      "version": "0.2.28",
+      "date": "2026-10-11",
+      "headline": "v0.2.28 - Clamped Chapter minimap camera",
+      "summary": "Heading-up minimap framing follows useful revealed map space, stops at boundaries and allows the player marker to move within the viewport.",
+      "categories": [
+        {
+          "name": "Minimap framing rework",
+          "changes": [
+            "REWORK: Chapter heading-up minimap now uses a separate clamped map-camera center. It follows while useful revealed map space allows, stops at pan limits, and lets the player marker move within the viewport. The forced center/lower-center player anchor is retired.",
+            "FRAMING: Camera turns, zoom changes and discovery recalculate the legal view from revealed authored floor geometry. Smaller axes center their revealed region; bounded triangle-coverage checks prefer fuller useful-map views while keeping the player inside. Artwork and all markers share one camera, heading and scale.",
+            "PRESERVED: District/corridor reveal rules and hidden-area masking, Core proximity zoom and transitions, and current 34/20/24/30/28/36-pixel markers remain unchanged. Core/objective edge indicators now use the actual projected player position. No added zoom-out, gameplay, progression, geometry or non-minimap HUD changes."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-27",
       "version": "0.2.27",
       "date": "2026-10-11",
