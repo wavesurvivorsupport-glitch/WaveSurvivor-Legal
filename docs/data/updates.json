@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-27",
+      "version": "0.2.27",
+      "date": "2026-10-11",
+      "headline": "v0.2.27 - Forward-view minimap framing",
+      "summary": "The Chapter minimap gives more space ahead with a fixed lower-center player anchor, aligned artwork and markers, and preserved District reveal and Core zoom.",
+      "categories": [
+        {
+          "name": "Minimap framing",
+          "changes": [
+            "IMPROVED: The Chapter heading-up minimap now places the player 15% of viewport height below center, giving more visible space ahead. The player remains horizontally centered and upright.",
+            "FIX: Artwork, enemies, Core and objectives share the same configurable lower-center anchor. Core and objective edge indicators follow rays from that anchor while staying inside the viewport.",
+            "PRESERVED: Camera-forward stays up, and the lower-center anchor remains fixed through Core zoom and corridor framing. Progression reveal masks still hide unreached Districts at every zoom level.",
+            "PRESERVED: Marker sizes remain 34 / 20 / 24 / 30 / 28 / 36 pixels. Authored artwork, world bounds, geometry, gameplay, objectives, rewards, checkpoints and other HUD elements are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-26",
       "version": "0.2.26",
       "date": "2026-10-11",
