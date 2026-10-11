@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-2-29",
+      "version": "0.2.29",
+      "date": "2026-10-11",
+      "headline": "v0.2.29 - Micro-Grenade base damage tuning",
+      "summary": "Fresh Chapter Micro-Grenade base damage reduced to 20 with its 10-second base cooldown and existing AD, Stats and Mastery composition preserved.",
+      "categories": [
+        {
+          "name": "Micro-Grenade prototype balance",
+          "changes": [
+            "TUNING: Fresh Chapter DPS Micro-Grenade base damage is reduced from 30 to 20. Base cooldown remains 10 seconds. This is a prototype feel test against the current 60-HP Chapter Normal; enemy values are unchanged.",
+            "PRESERVED: Grenade radius, projectile speed, explosion behavior, bonus AD coefficient, Stats composition, Grenade Damage/Radius/Cooldown Mastery and Slow Field are unchanged. Primary fire, Dash, Bullet Rain, enemies, rewards and mission pacing are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-28",
       "version": "0.2.28",
       "date": "2026-10-11",
