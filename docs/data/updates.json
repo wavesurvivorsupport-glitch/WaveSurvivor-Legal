@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-2-34",
+      "version": "0.2.34",
+      "date": "2026-10-15",
+      "headline": "v0.2.34 - District 2 sustained Hound pressure tuning",
+      "summary": "Post-machine Hound pressure reduced to one spawn opportunity every 4 seconds, preserving the 8-Hound introduction, enemy stats, four Throwers and all other District 2 pacing.",
+      "categories": [
+        {
+          "name": "Post-machine Hound cadence",
+          "changes": [
+            "TUNING: District 2 post-machine sustained Hound pressure now attempts one Hound every 4.0 seconds, reduced from one every 2.0 seconds. This affects only the later Thrower encounter; phase start/end and unsafe-spawn discard behavior are unchanged. No spawn cap was added.",
+            "PRESERVED: Earlier Hound introduction batches remain 1 / 2 / 2 / 3, totaling 8. Hound HP, speed, flanking bonus, damage, attacks and AI are unchanged. The four Throwers, their Normal pressure, Normal values, PracticeMachine flight duration/cadence/counts, rewards, checkpoints, minimap and player combat are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-33",
       "version": "0.2.33",
       "date": "2026-10-15",
