@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-32",
+      "version": "0.2.32",
+      "date": "2026-10-14",
+      "headline": "v0.2.32 - Two-point Chapter checkpoint transitions",
+      "summary": "Authored checkpoints now own completion, rewards, saving and results; entry triggers start the next district, Continue resumes at entry and rear doors wait for actual floor arrival.",
+      "categories": [
+        {
+          "name": "Chapter transition finalization",
+          "changes": [
+            "CHANGED: District transitions 1-to-2, 2-to-3, 3-to-4 and 4-to-5 now use two existing authored points. The next-district checkpoint completes the previous mission, grants eligible first-clear rewards, saves progression and opens its matching results panel. The entry trigger starts the next district. The old independent District1Finish step has no completion authority.",
+            "IMPROVED: Same-session CONTINUE restores control without teleporting. MAIN MENU / Continue and interrupted pre-entry sessions resume immediately before the current authored next-district entry, without repeating the prior panel, reward or checkpoint walk.",
+            "SAFEGUARDS: Rear doors wait for contact with the actual district Floor and safe doorway clearance, independently of entry-trigger activation. Checkpoint write failures pause traversal while retrying. Story schema 6 preserves old handoffs and journals; replay retains isolated continuation without canonical reward/save writes.",
+            "PRESERVED: Current authored scene objects, transforms, collider sizes and references remain unchanged. Existing first-clear reward values, combat, enemies, abilities, Stats/Mastery, mission encounters, minimap stability and production Build Settings are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-31",
       "version": "0.2.31",
       "date": "2026-10-12",
