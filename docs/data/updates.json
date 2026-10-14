@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-35",
+      "version": "0.2.35",
+      "date": "2026-10-15",
+      "headline": "v0.2.35 - Static revealed-map minimap framing",
+      "summary": "Chapter minimap frames all revealed floors with a stable heading-safe scale, a moving player marker and no player-follow or Core proximity zoom.",
+      "categories": [
+        {
+          "name": "Chapter minimap framing",
+          "changes": [
+            "CHANGED: Chapter 1 minimap now centers the entire currently revealed district/corridor floor area. The player marker moves across the static map; walking and camera heading no longer pan its world-space center.",
+            "CHANGED: A cached all-heading fit with a configurable 5% margin keeps revealed artwork visible during rotation. Hidden future floors do not affect framing. New reveals use the existing short smooth transition, then hold a fixed frame.",
+            "CHANGED: Chapter Core proximity zoom is disabled to preserve whole-revealed-map visibility. Player/enemy/Core/objective markers retain shared projection, heading-up presentation, existing sizes and useful edge indicators. The old player-follow/clamp/coverage solver no longer drives the Chapter minimap."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-34",
       "version": "0.2.34",
       "date": "2026-10-15",

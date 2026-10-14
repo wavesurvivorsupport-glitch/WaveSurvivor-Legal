@@ -6,6 +6,13 @@
     <description>Official WaveSurvivor patch notes from Haider Games</description>
     <language>en-us</language>
     <item>
+      <title>v0.2.35 - Static revealed-map minimap framing</title>
+      <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-35.html</link>
+      <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-35.html</guid>
+      <description>Chapter minimap frames all revealed floors with a stable heading-safe scale, a moving player marker and no player-follow or Core proximity zoom.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>v0.2.34 - District 2 sustained Hound pressure tuning</title>
       <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-34.html</link>
       <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-34.html</guid>
