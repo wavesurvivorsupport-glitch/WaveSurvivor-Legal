@@ -1,6 +1,41 @@
 {
   "updates": [
     {
+      "id": "v0-2-37",
+      "version": "0.2.37",
+      "date": "2026-10-15",
+      "headline": "v0.2.37 - District floor arrival and encounter grace",
+      "summary": "Districts 3 through 5 now wait for actual floor arrival and three seconds of grace before encounter spawning, with saved grace and existing door safety preserved.",
+      "categories": [
+        {
+          "name": "District encounter timing",
+          "changes": [
+            "FIX: District 3, 4 and 5 encounters no longer start their spawn timer at the entry trigger. Entry still activates and presents the District; actual District floor contact now arms a shared three-second grace period before the authored encounter begins.",
+            "FIX: Continue before floor arrival remains unarmed. Suspended floor-grace progress resumes from its saved timer, while already-started encounters restore their existing actors and phase without repeating the initial start. Legacy entry-based waiting time is not counted as floor grace.",
+            "PRESERVED: Rear doors still require actual floor contact, safe doorway clearance and being beyond the doorway. Combat grace is independent of door movement. District 2 entry, PracticeMachine and Hound/Thrower timing are unchanged.",
+            "PRESERVED: Authored triggers, CheckpointSpawn markers, floor sensors, doors and geometry are unchanged. Enemy counts/stats, Hound cadence, Thrower behavior, rewards, Credits/Mastery, map/minimap and player combat values are unchanged."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-2-36",
+      "version": "0.2.36",
+      "date": "2026-10-15",
+      "headline": "v0.2.36 - Active-District minimap framing",
+      "summary": "Chapter minimap focuses on the current entered District while retaining earlier discovery, static framing, heading-up rotation and shared marker projection.",
+      "categories": [
+        {
+          "name": "Static active-District focus",
+          "changes": [
+            "CHANGED: Chapter minimap now frames the current entered District instead of fitting the entire revealed Chapter. Each District uses its own authored floor center and all-heading-safe scale, keeping later Districts readable.",
+            "PRESERVED: Previously discovered Districts and corridors remain revealed and render wherever they fall within the current crop. Discovery alone does not reframe the view; canonical District entry selects the next frame with the existing short smooth transition.",
+            "PRESERVED: The map stays static between District entries, rotates heading-up, and uses the existing shared player/enemy/Core/objective projection and marker sizes. Player-follow panning, the old coverage solver and Chapter Core zoom remain disabled. No gameplay, geometry, checkpoints, rewards or combat values changed."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-35",
       "version": "0.2.35",
       "date": "2026-10-15",

@@ -6,6 +6,20 @@
     <description>Official WaveSurvivor patch notes from Haider Games</description>
     <language>en-us</language>
     <item>
+      <title>v0.2.37 - District floor arrival and encounter grace</title>
+      <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-37.html</link>
+      <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-37.html</guid>
+      <description>Districts 3 through 5 now wait for actual floor arrival and three seconds of grace before encounter spawning, with saved grace and existing door safety preserved.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>v0.2.36 - Active-District minimap framing</title>
+      <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-36.html</link>
+      <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-36.html</guid>
+      <description>Chapter minimap focuses on the current entered District while retaining earlier discovery, static framing, heading-up rotation and shared marker projection.</description>
+      <pubDate>Thu, 15 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>v0.2.35 - Static revealed-map minimap framing</title>
       <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-35.html</link>
       <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-35.html</guid>
