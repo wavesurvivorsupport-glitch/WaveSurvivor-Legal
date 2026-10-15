@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-2-38",
+      "version": "0.2.38",
+      "date": "2026-10-16",
+      "headline": "v0.2.38 - Chapter transition framing and NewMenu exits",
+      "summary": "Inter-District corridors receive precise navigation preview frames, and all New Chapter menu exits now return to NewMenu while preserving saves and progression.",
+      "categories": [
+        {
+          "name": "Final Chapter fixes",
+          "changes": [
+            "FIX: Each inter-District corridor now frames only the previous District, its connecting corridor and the destination District. Committing the next EntryTrigger smoothly reframes to that destination District alone.",
+            "PRESERVED: Active-District framing remains static and heading-up. Movement cannot pan the map, yaw cannot pan or zoom it, and the existing margin keeps each selected set safe at every heading. Discovery remains separate; the destination preview does not activate encounters, doors or progression. Marker sizes are unchanged and Core zoom remains disabled.",
+            "FIX: Every New Chapter menu exit now resolves to NewMenu, including death, pause, Save & Exit, District results, replay, completion and recovery. Routing no longer depends on which menu launched the Chapter or silently falls back to the legacy Story menu.",
+            "BUILD: NewMenu is included in the enabled player scene list and the explicit Chapter development build. Existing scene indices and legacy startup are preserved; Editor Chapter returns retain path-based loading.",
+            "PRESERVED: Save & Exit still verifies/saves before leaving. Results retain saved rewards, completion and next-entry resume context. Existing Credits, levels/XP, Mastery, Stats, reward claims, checkpoints and replay protections are unchanged. Legacy menu assets remain available for legacy modes. Combat balance, encounter floor grace, door timing and authored transforms are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-37",
       "version": "0.2.37",
       "date": "2026-10-15",
