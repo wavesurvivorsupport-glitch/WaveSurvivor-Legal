@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-46",
+      "version": "0.2.46",
+      "date": "2026-10-21",
+      "headline": "v0.2.46 - District 1 stationary Communications defense",
+      "summary": "District 1 becomes a stationary 0–50 hold with escalating Normal pressure, survivor cleanup and Finalize Repairs, replacing the moving phase and separate ambush.",
+      "categories": [
+        {
+          "name": "District 1 encounter redesign",
+          "changes": [
+            "CHANGED: District 1 now centers on one stationary Communications defense after its existing 10-Normal opening clear. Repair remains 0–50 at one point per occupied second in the authored 5×5 area; leaving pauses repair but does not stop an already-started defense.",
+            "TUNING: Normal pressure escalates at 10/20/30/40 repair points using cadence only: one spawn opportunity every 4/3/2/1.5/1 seconds. The existing 15-active cap, safe shuffled spawn sources and 6-meter player clearance are preserved. Individual Normal HP, speed and damage are unchanged. These encounter values remain prototype tuning.",
+            "CHANGED: At 50 repair points, new defense spawning stops. Remaining owned enemies are cleared under DEFEAT ENEMIES, then the existing five-second Finalize Repairs interaction opens the forward gate and secures District 1. The separate post-repair ambush and lock overrides no longer run.",
+            "COMPATIBILITY: Old moving/ambush suspensions retain progress and owned survivors without creating new ambush waves. The authored stationary area replaces obsolete moving-zone positions; already-finished Finalize work is retained. Rewards, results, checkpoint authority, D1→D2 routing, minimap, economy and D2+ are unchanged by this redesign."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-45",
       "version": "0.2.45",
       "date": "2026-10-21",
