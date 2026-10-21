@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-44",
+      "version": "0.2.44",
+      "date": "2026-10-21",
+      "headline": "v0.2.44 - Current permanent Stats bonuses",
+      "summary": "Every NewMenu Stats card shows the accumulated purchased bonus, with clearer max-rank presentation and unchanged next-rank gates, costs and recovery choices.",
+      "categories": [
+        {
+          "name": "Stats readability",
+          "changes": [
+            "UI: All 12 NewMenu permanent Stats cards now show CURRENT BONUS from currently owned ranks and the live per-rank configuration. This is the purchased Stats contribution only, excluding character base values, Mastery and temporary modifiers.",
+            "UI: Non-max cards retain the next-rank effect, Credit cost and progression requirement. Maxed cards emphasize the accumulated bonus and MAX RANK instead of displaying an unavailable next purchase. Armor Recovery is described as a percentage shorter Armor refill time.",
+            "PRESERVED: Stat effects, costs, combat, rewards and progression economy are unchanged. Target-rank thresholds remain 0 / 8 / 16 / 26 / 34, and HP Regen/Lifesteal remain mutually exclusive."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-43",
       "version": "0.2.43",
       "date": "2026-10-21",
