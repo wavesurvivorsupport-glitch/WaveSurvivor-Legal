@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-2-41",
+      "version": "0.2.41",
+      "date": "2026-10-21",
+      "headline": "v0.2.41 - Permanent progression purchase gates",
+      "summary": "Broader current Stat and Mastery ownership now gates deeper purchases across the Chapter, with clear lock explanations and existing saves preserved.",
+      "categories": [
+        {
+          "name": "Permanent progression pacing",
+          "changes": [
+            "PROGRESSION: Higher DPS Stat ranks now require broader current ownership. Ranks 1–5 require 0, 8, 16, 26 and 34 total purchased Stat ranks before buying the next rank. Sequential rank rules and HP Regen versus Lifesteal exclusivity remain in force.",
+            "PROGRESSION: DPS Mastery steps 1–5 now require 0, 2, 6, 10 and 14 currently owned nodes across the tree, alongside the previous node in that branch. Early rewards support direction choices while deeper specialization opens throughout the Chapter.",
+            "UI: Locked Stat cards and Mastery details explain the required total and current ownership. Mastery still auto-selects the next same-branch node after a successful purchase, including an unaffordable next node; final nodes remain selected.",
+            "COMPATIBILITY: Existing valid ranks and nodes stay owned and active, even below the new requirements. Gates apply only to future purchases and need no new save format. Free Mastery reset refunds recorded costs and recalculates eligibility from current ownership; full reset still clears progression and reward claims.",
+            "PRESERVED: Each pre-boss first clear still grants 840 Credits and 200 DPS Mastery XP. Stats remain 100 Credits per rank and Mastery remains 50 XP per node. Costs, effects, Credits/XP, Player Level, replay protections, combat, encounters, checkpoints and minimap behavior are unchanged. PROTOTYPE — BALANCE PENDING."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-40",
       "version": "0.2.40",
       "date": "2026-10-21",
