@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-45",
+      "version": "0.2.45",
+      "date": "2026-10-21",
+      "headline": "v0.2.45 - DPS Mastery capstone swap",
+      "summary": "Micro-Grenade gains close-range self-healing, while Bullet Rain gains a refreshing slow field, preserving saved node ownership and other tuning.",
+      "categories": [
+        {
+          "name": "DPS Mastery capstones",
+          "changes": [
+            "MASTERY: Micro-Grenade capstone is now BLAST RECOVERY. Each explosion heals its living owner once for 10% of effective Max HP only when inside the grenade's actual upgraded blast sphere. No lingering healing zone, ally heal, self-damage or revive.",
+            "MASTERY: Bullet Rain capstone is now SLOW FIELD. Valid enemy ticks refresh the existing 25% movement slow for two seconds. Repeated ticks and overlapping fields refresh one source modifier rather than multiply-stacking; the slow expires naturally after refresh stops. Bullet Rain no longer grants its former healing-zone effect.",
+            "COMPATIBILITY: Historical node IDs grenade.slow and rain.healing, purchased ownership, recorded XP costs, prerequisites, progression gates and free respec refunds remain intact. NewMenu refreshes tree names and detail text from the catalog so existing saves show the replacement effects.",
+            "PRESERVED: Grenade stays at 20 base damage and 10-second base cooldown with existing AD/radius/damage/cooldown upgrades. Bullet Rain stays at 7 base damage per tick, exactly 12 base ticks over six seconds and a 20-second base cooldown, with existing AP/radius/duration/damage upgrades. Stats, lifesteal, global CDR, enemy balance, missions, rewards, minimap and protected legacy modes are unchanged. PROTOTYPE — PENDING MANUAL FEEL TEST."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-44",
       "version": "0.2.44",
       "date": "2026-10-21",
