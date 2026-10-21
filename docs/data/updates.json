@@ -1,6 +1,40 @@
 {
   "updates": [
     {
+      "id": "v0-2-40",
+      "version": "0.2.40",
+      "date": "2026-10-21",
+      "headline": "v0.2.40 - North-up minimap and player visibility",
+      "summary": "Chapter minimap remains north-up while the player arrow rotates with facing and draws above overlapping markers, preserving District and corridor framing.",
+      "categories": [
+        {
+          "name": "Minimap orientation and player visibility",
+          "changes": [
+            "CHANGED: Chapter minimap is now north-up. Map artwork and enemy/Core/objective world positions stay fixed while the player turns. The player arrow rotates with camera facing: north up, east right, south down and west left.",
+            "FIX: The player marker has an explicit topmost presentation layer above enemies, Core, objectives and the Core edge indicator, so overlapping markers cannot hide the player arrow. Marker sizes and edge-indicator placement are unchanged.",
+            "PRESERVED: Active Districts frame themselves; transition corridors frame the previous District, corridor and destination; entry commitment reframes to the destination alone. Framing bounds, scale, smooth transitions, discovery and static settled centers are unchanged. Player-follow panning and Chapter Core zoom remain disabled. No combat, Chapter progression or Core gameplay changes."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-2-39",
+      "version": "0.2.39",
+      "date": "2026-10-21",
+      "headline": "v0.2.39 - Safer Mastery reset and clearer enemy HP bars",
+      "summary": "Mastery reset is separated from Unlock, and larger enemy HP bars improve combat readability.",
+      "categories": [
+        {
+          "name": "UI usability",
+          "changes": [
+            "UI: RESET MASTERY now sits in a separate bottom-left Free Respec footer, away from UNLOCK, with a distinct reset color and the existing confirmation dialog.",
+            "UI: Enemy HP bars are 50% wider and twice as thick through one shared Offline/Online sizing rule. Normal, Hound, Thrower and larger enemies retain their existing anchors and model scaling.",
+            "PRESERVED: Free respec, Mastery unlock costs/effects/progression gates, enemy HP and combat, minimap and mission logic are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-38",
       "version": "0.2.38",
       "date": "2026-10-16",
