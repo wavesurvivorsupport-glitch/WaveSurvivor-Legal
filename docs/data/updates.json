@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-43",
+      "version": "0.2.43",
+      "date": "2026-10-21",
+      "headline": "v0.2.43 - Open forward routes with transition waypoints",
+      "summary": "Forward routes are visibly open when next-District navigation activates, while existing entry and safe door-closing rules remain intact.",
+      "categories": [
+        {
+          "name": "Chapter door presentation",
+          "changes": [
+            "FIX: The complete forward route is visibly open before its next-District waypoint appears. Districts 2, 3 and 4 now open both their outgoing boundary and the destination entrance together, including restored secured navigation.",
+            "FIX: Replaced the District 2-only frame workaround with waypoint-owned route presentation. Once the checkpoint advances, stale source presentation cannot reopen the destination rear doors.",
+            "PRESERVED: District 1 to 2 already opens in the correct order and is unchanged. Destination entry commitment, inner/floor requirements, door clearance and safe rear-door closing remain authoritative. Encounter timing and three-second grace, checkpoints, rewards, enemies, minimap, progression and authored scene transforms are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-42",
       "version": "0.2.42",
       "date": "2026-10-21",
