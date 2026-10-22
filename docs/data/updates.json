@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-2-51",
+      "version": "0.2.51",
+      "date": "2026-10-23",
+      "headline": "v0.2.51 - Primed Throwers and persistent payload targeting",
+      "summary": "Throwers begin loaded with a one-second opening warning, and carried Normals remain targetable throughout their flight lifecycle.",
+      "categories": [
+        {
+          "name": "Thrower combat presentation",
+          "changes": [
+            "COMBAT PRESENTATION: Fresh District 2 and District 5 Throwers appear with a Normal already loaded and release their opening throw after a one-second warning. Later throws retain the existing four-second reload and one-second preparation cadence.",
+            "FIX: Carried Normals remain independently owned enemies while following the Thrower hand anchor. Their existing health, hitboxes and silhouette renderer instances persist through carry, release, flight and landing; save data retains explicit held-owner identity.",
+            "FIX: Enemy Tracker acquisition and Tank/Healer primary queries now recognize carried payload trigger hitboxes. Other trigger behavior and existing Tracker range, cone, lock and wall-occlusion rules remain unchanged.",
+            "RESTORE: Suspended Throwers reconstruct captured state and timers without creating an extra opening payload or restarting the opening warning.",
+            "PRESERVED: Thrower counts/HP, Normal stats, Hounds, D5 Core pressure and Core HP, PracticeMachine, rewards, progression and weapon damage/rates/ranges are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-50",
       "version": "0.2.50",
       "date": "2026-10-23",
