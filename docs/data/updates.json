@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-2-50",
+      "version": "0.2.50",
+      "date": "2026-10-23",
+      "headline": "v0.2.50 - Faster PracticeMachine targets",
+      "summary": "PracticeMachine targets travel in 3 seconds while group gating and launch delays remain unchanged.",
+      "categories": [
+        {
+          "name": "Target travel time",
+          "changes": [
+            "TUNING: District 2 PracticeMachine target flight duration reduced from 4 to 3 seconds for single, double and triple groups, increasing traversal speed by approximately 33%.",
+            "PRESERVED: Initial delay remains 2.5 seconds. Each group still waits for all targets to resolve, followed by 1.0 second before the next group. Arcs, endpoints, counts, size, scoring and hit behavior are unchanged. D2 encounter flow, enemy balance, rewards, checkpoints, minimap and projectile-speed Stats are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-49",
       "version": "0.2.49",
       "date": "2026-10-23",
