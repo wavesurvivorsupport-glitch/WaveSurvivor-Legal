@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-48",
+      "version": "0.2.48",
+      "date": "2026-10-23",
+      "headline": "v0.2.48 - Chapter environment lighting foundation",
+      "summary": "Chapter 1 gains editable night lighting, soft directional shadows, subtle fog and restrained post processing, with four entrance accents.",
+      "categories": [
+        {
+          "name": "Chapter environment presentation",
+          "changes": [
+            "LIGHTING: Chapter1_Blockout gains a restrained sci-fi night foundation: angled soft directional shadows, readable three-color ambient fill, a brighter dark-blue procedural star sky and subtle distance fog.",
+            "TUNING: A dedicated Chapter Environment Settings asset centralizes main light/color/temperature/rotation, shadow strength, ambient fill, sky gradient exposure, fog mode/density/distances, exposure, contrast, saturation, bloom, vignette and entrance accents. Future atmosphere overrides use the same configuration; no District 4 fog event is added.",
+            "PRESENTATION: Conservative Neutral tonemapping, +0.15 EV exposure, contrast 8, saturation -8, bloom 0.06 and vignette 0.05. Four non-shadowed point lights accent District 2–5 entrances. Existing Chapter cameras are wired for the dedicated sky and post Volume.",
+            "PRESERVED: Gameplay, geometry/materials, authored gameplay transforms, spawns, doors, objectives, minimap, saves and progression are unchanged. Shared URP assets, the original city sky, protected legacy scenes and production Build Settings are unchanged. No lighting bake or extra local shadow lights. Prototype values remain available for manual visual tuning."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-47",
       "version": "0.2.47",
       "date": "2026-10-22",
