@@ -1,6 +1,22 @@
 {
   "updates": [
     {
+      "id": "v0-2-49",
+      "version": "0.2.49",
+      "date": "2026-10-23",
+      "headline": "v0.2.49 - Chapter floor glare reduction",
+      "summary": "Rougher Chapter district and corridor floors reduce specular glare while preserving wall response, blue lighting and reflections.",
+      "categories": [
+        {
+          "name": "Floor material readability",
+          "changes": [
+            "MATERIALS: Generic Chapter district and corridor floors now use a rougher URP Lit response: smoothness 0.50 to 0.05. Metallic remains 0; specular highlights and environment reflections remain enabled, preserving softer local-light response while reducing sharp floor glare.",
+            "PRESERVED: Wall materials, blue navigation/PracticeMachine lighting, emissive surfaces, floor colors, shadow reception, Chapter lighting/fog/post-processing, geometry, gameplay and production Build Settings are unchanged. Only the four existing dedicated floor material assets were tuned."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-48",
       "version": "0.2.48",
       "date": "2026-10-23",
