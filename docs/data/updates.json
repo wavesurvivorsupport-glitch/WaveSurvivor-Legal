@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-47",
+      "version": "0.2.47",
+      "date": "2026-10-22",
+      "headline": "v0.2.47 - District 2 aim challenge and Thrower assault",
+      "summary": "A 15-Normal opening leads directly into the existing aim challenge and four-Thrower assault, with Hounds retired from District 2.",
+      "categories": [
+        {
+          "name": "District 2 encounter identity",
+          "changes": [
+            "REDESIGN: District 2 now clears 15 canonical Normals, goes directly to the existing PracticeMachine aim challenge, then uses the TOO MUCH NOISE / ENEMIES ARE APPROACHING warning to begin its four-Thrower assault.",
+            "REMOVED FROM D2: Hound introduction groups, scent/breathing sequence and independent four-second Hound pressure. The assault has no independent extra Normal wave; only the Throwers themselves generate Normal payload pressure. Hound assets and AI remain available for later District 3 work.",
+            "PRESERVED: PracticeMachine keeps its 2.5-second initial delay, four-second target flight, single/double/triple sequence and one-second pause after each group resolves. Thrower stats/attacks/payloads and Normal/player balance are unchanged. All four Throwers and surviving owned Normals remain required before the existing secured, open-route, waypoint, checkpoint, results and reward flow.",
+            "COMPATIBILITY: Old Hound suspensions adapt in a detached runtime copy without kill credit or reward writes. Retired intro phases resume at the machine; assault/cleanup retain Throwers and required Normals while omitting Hounds. Unfinished older opening clears keep their actors/kills and add only the missing enemies needed for the new 15-Normal target. D1, D3+, minimap, progression and authored scene transforms are unchanged by this task."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-46",
       "version": "0.2.46",
       "date": "2026-10-21",
