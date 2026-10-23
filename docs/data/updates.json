@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-52",
+      "version": "0.2.52",
+      "date": "2026-10-24",
+      "headline": "v0.2.52 - Open District 3 as soon as District 2 is secured",
+      "summary": "D2 completion immediately opens the entire route into D3, including Continue restoration, while preserving safe destination closure.",
+      "categories": [
+        {
+          "name": "D2 to D3 door timing",
+          "changes": [
+            "FIX: District 2 now immediately opens both its outgoing Boundary 3 doors and the District 3 Boundary 0 entrance doors when the encounter becomes secured, before delayed waypoint, results or corridor checkpoint flow.",
+            "RESTORE: Continuing a secured District 2 reconciles both boundaries open immediately after restoring captured doors. Waypoint publication no longer reopens the route repeatedly.",
+            "PRESERVED: District 3 retains entry/floor commitment, clearance, beyond-door safety and its three-second encounter grace. Combat, Throwers, PracticeMachine, checkpoints, rewards and authored scene transforms are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-51",
       "version": "0.2.51",
       "date": "2026-10-23",
