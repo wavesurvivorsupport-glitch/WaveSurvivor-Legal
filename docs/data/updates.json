@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-53",
+      "version": "0.2.53",
+      "date": "2026-10-24",
+      "headline": "v0.2.53 - District 2 final polish",
+      "summary": "Twenty opening Normals, a larger PracticeMachine interaction footprint, higher target arcs and shadow-free HP-bar graphics.",
+      "categories": [
+        {
+          "name": "District 2 polish",
+          "changes": [
+            "D2 POLISH: Opening clear increases from 15 to 20 canonical Normals without changing enemy stats. The initial machine InteractZone grows from 1.5×1.5 to 2×2 meters; its center, vertical tolerance and later Practice Position remain unchanged.",
+            "TARGETS: Existing parabolic paths gain higher midpoint rises: single 3→10m, double 3.225→11m, triple 3.45/3/3.45→12/10/12m. Flight remains three seconds, with the existing endpoints, launch patterns, scoring, 2.5-second initial delay and one-second resolved-group pause.",
+            "HP BARS: Shared Offline/Online presentation disables shadow casting/receiving on health-bar mesh graphics only. Enemy body shadows, bar anchors, 1.5× width and 2× thickness remain intact.",
+            "PRESERVED: Machine/noise warning/four-Thrower sequence, v0.2.51 primed opening, carried-enemy targeting, Thrower payload pressure, no D2 Hounds, existing survivor completion, checkpoints, rewards and minimap."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-52",
       "version": "0.2.52",
       "date": "2026-10-24",
