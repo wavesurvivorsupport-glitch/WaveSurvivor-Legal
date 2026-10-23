@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-55",
+      "version": "0.2.55",
+      "date": "2026-10-24",
+      "headline": "v0.2.55 - District 3 Hounds and moving supplies",
+      "summary": "District 3 introduces Hounds, two timed supply-zone chases, a final delivery hold and a finite mixed ambush.",
+      "categories": [
+        {
+          "name": "District 3 encounter redesign",
+          "changes": [
+            "DISTRICT 3: The placeholder fight becomes a Hound introduction: 20 canonical Normals and five Hounds after the existing entry/grace. Clearing them activates MOVE THE SUPPLIES at the developer-authored Mark. No Throwers or enemy stat changes.",
+            "SUPPLIES: Gain occupied progress to 60 in a five-meter zone. At 20 and 40 it moves at eight meters/second for ten seconds along a fixed ten-target interior route; keeping up still earns progress. Normal opportunities accelerate 4/3/2 seconds and Hound opportunities 12/10/8 seconds, capped at 12 Normals and three Hounds without catch-up spawning.",
+            "FINALE: At 60, new pressure stops and FINAL DELIVERY moves supplies to one fixed D3 point for ten additional occupied seconds. A single 15-Normal/five-Hound ambush follows. Every owned survivor must genuinely die before the existing secured route, handoff, results, rewards and checkpoint flow.",
+            "SAVE / UI: D3 suspension retains stage, progress, route/index/timer/center, pressure clocks and owned Normal/Hound HP/poses. Existing area-style minimap and nearby-waypoint suppression follow the moving zone. Legacy placeholder saves retain actors/kills; already-secured saves stay secured. D1/D2, D4/D5 encounters, canonical enemy balance, rewards, progression, replay isolation and minimap architecture remain unchanged. PROTOTYPE — PENDING MANUAL FEEL TEST."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-54",
       "version": "0.2.54",
       "date": "2026-10-24",
