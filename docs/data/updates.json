@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-54",
+      "version": "0.2.54",
+      "date": "2026-10-24",
+      "headline": "v0.2.54 - Communications objective marker readability",
+      "summary": "Hide redundant nearby waypoints and show the actual Communications zone beneath the player arrow.",
+      "categories": [
+        {
+          "name": "Objective presentation",
+          "changes": [
+            "OBJECTIVE READABILITY: Communications world waypoint and distance hide inside its repair footprint or within three meters of its center at the objective height, and return when leaving. The objective tracker remains visible.",
+            "MINIMAP: Communications uses a thin square outline projected from its authored 5x5-meter objective footprint instead of an oversized point marker. The player arrow retains its explicit top layer; existing off-map guidance remains available.",
+            "REUSE: Shared waypoint presentation accepts an optional canonical zone footprint for future area objectives. Other markers, north-up orientation, District framing, objective gameplay, combat and spawns are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-53",
       "version": "0.2.53",
       "date": "2026-10-24",
