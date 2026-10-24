@@ -6,6 +6,20 @@
     <description>Official WaveSurvivor patch notes from Haider Games</description>
     <language>en-us</language>
     <item>
+      <title>v0.2.58 - Minimap facing cone and waypoint proximity</title>
+      <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-58.html</link>
+      <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-58.html</guid>
+      <description>Show camera heading on the north-up minimap and hide redundant nearby destination waypoints.</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>v0.2.57 - District 3 chase escalation and ambush warning</title>
+      <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-57.html</link>
+      <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-57.html</guid>
+      <description>A longer second supply chase and a saved gate-opening/red-warning finale add escalation while preserving the existing District 3 objective and combat composition.</description>
+      <pubDate>Sat, 24 Oct 2026 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>v0.2.56 - Shared Chapter HUD regression repair</title>
       <link>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-56.html</link>
       <guid>https://wavesurvivorsupport-glitch.github.io/WaveSurvivor-Legal/updates/v0-2-56.html</guid>

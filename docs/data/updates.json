@@ -1,6 +1,42 @@
 {
   "updates": [
     {
+      "id": "v0-2-58",
+      "version": "0.2.58",
+      "date": "2026-10-24",
+      "headline": "v0.2.58 - Minimap facing cone and waypoint proximity",
+      "summary": "Show camera heading on the north-up minimap and hide redundant nearby destination waypoints.",
+      "categories": [
+        {
+          "name": "Chapter navigation readability",
+          "changes": [
+            "MINIMAP: Added a subtle cyan camera-facing sector from the player marker. Its 64-unit radius fades toward the outer edge; angle follows horizontal camera FOV within a readable 50–100-degree range. The map stays north-up with unchanged District/corridor framing and marker sizes.",
+            "LAYERING: Map artwork draws below the facing cone, enemy/objective markers above it, and the player arrow above everything. The cone shares the existing camera-yaw source and remains clipped to the minimap frame without blocking input.",
+            "WAYPOINTS: Shared configurable three-meter suppression now covers Finalize Repairs and Chapter district destinations. Only floating world waypoint/distance hides nearby; objective/progress UI, minimap guidance and interactions remain active. Communications and D3 supply-area behavior are preserved.",
+            "PRESERVED: Per-waypoint radius overrides and opt-outs support future objectives. PracticeMachine interaction, practice-position and TARGETS cues remain visible nearby. The v0.2.56 CanvasRenderer fix, enemy markers, crosshair, pause, gameplay, saves and progression are unchanged."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "v0-2-57",
+      "version": "0.2.57",
+      "date": "2026-10-24",
+      "headline": "v0.2.57 - District 3 chase escalation and ambush warning",
+      "summary": "A longer second supply chase and a saved gate-opening/red-warning finale add escalation while preserving the existing District 3 objective and combat composition.",
+      "categories": [
+        {
+          "name": "District 3 feel and finale",
+          "changes": [
+            "D3: The second MOVE THE SUPPLIES chase at 40 progress now lasts 14 seconds instead of 10. The first chase at 20 remains 10 seconds; both retain 8 m/s speed and the continuing deterministic route.",
+            "D3 FINALE: Completing FINAL DELIVERY opens the authored Boundary 0 A/B arrival gates. A 1.75-second opening/hold beat leads into a 0.5-second established red WARNING pulse, followed by SURVIVE THE AMBUSH. The D4 progression gate remains sealed until D3 is secured.",
+            "SAVE / CONTINUE: Gate-beat and warning stages persist separately with their remaining timing. Captured gate motion resumes, warning progress continues, and existing ambush counters prevent duplicate activation. Older active ambush saves do not replay the anticipation.",
+            "PRESERVED: Opening 20 Normals + 5 Hounds, the 0/60 supply objective, pressure cadence and enemy stats remain unchanged. The finite final 15 Normals + 5 Hounds and all legitimate surviving owned enemies still must die before the existing secure, rewards, checkpoint, replay and D4 handoff flow."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-56",
       "version": "0.2.56",
       "date": "2026-10-24",
