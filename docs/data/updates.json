@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-56",
+      "version": "0.2.56",
+      "date": "2026-10-24",
+      "headline": "v0.2.56 - Shared Chapter HUD regression repair",
+      "summary": "Repair the objective-area rendering dependency that interrupted shared Chapter HUD updates.",
+      "categories": [
+        {
+          "name": "Shared HUD repair",
+          "changes": [
+            "FIX: Chapter objective-area minimap graphics now create their required CanvasRenderer. This removes the repeated shared-Canvas clipping exception that could leave repair objectives, enemy markers, crosshair and pause graphics stale or invisible.",
+            "DISTRICT 1: Restored shared presentation for the existing ten-enemy clear, one INITIAL THREAT CLEARED transition, REPAIR COMMUNICATIONS 0/50, owned-survivor cleanup and FINALIZE REPAIRS. Only the nearby floating world waypoint hides; the progress bar, cyan minimap area and player-above-objective layering remain independent.",
+            "VALIDATION / PRESERVED: Focused normal Chapter, Continue and completed-mission Replay checks cover real UI mesh rebuilding, pause/resume, Normal/Hound/Thrower markers and read-only replay saves. Recent D2 route/polish and D3 supplies, authored transforms, north-up framing, gameplay and rewards are preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-55",
       "version": "0.2.55",
       "date": "2026-10-24",
