@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-2-60",
+      "version": "0.2.60",
+      "date": "2026-10-25",
+      "headline": "v0.2.60 - District 5 finite Archive Core siege",
+      "summary": "An authored Core defense with an opening clear, three finite waves, distinct enemy threats and resumable progress.",
+      "categories": [
+        {
+          "name": "Chapter 1 District 5 prototype",
+          "changes": [
+            "DISTRICT 5: Replaced the four-Thrower placeholder with a finite Archive Core siege. Clear 25 Normals and 5 Hounds, activate the authored Core, then defend through three waves and a final cleanup.",
+            "WAVES: Wave 1 uses two active Throwers and 12 Hounds at 4.5-second opportunities/cap 4; Wave 2 uses all four and 18 Hounds at 3.5 seconds/cap 6; Final Wave adds 24 Hounds at 2.5 seconds/cap 8 and 12 direct Normals at two seconds/cap 6. Intermissions retain Core HP.",
+            "FINITE DEFENSE: Exhausting each wave quota stops new Thrower payload preparation after any committed throw. Every owned mobile attacker must genuinely die; stationary Thrower deaths are not required. Missed or capped spawns never accumulate a backlog.",
+            "CORE THREATS: Hounds prioritize the Core. Throwers, their Normal payloads and direct Normals pressure the player. Canonical Core HP and failure replace the placeholder; CORE SECURED uses the existing D5 completion and reward flow.",
+            "RESUME: Chapter suspension preserves opening progress, phase clocks, Core HP, consumed quotas, Thrower eligibility, payload state and living actor HP/poses. Resume does not restart finished waves, heal the Core or duplicate rewards.",
+            "PRESERVED: Existing D4-to-D5 checkpoint, inner/floor commitment, safe door closure, three-second entry grace, authored Core/Thrower/source transforms, enemy stats, rewards and minimap architecture remain unchanged. Prototype combat feel awaits manual playtesting."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-59",
       "version": "0.2.59",
       "date": "2026-10-24",
