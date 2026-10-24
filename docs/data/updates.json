@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-59",
+      "version": "0.2.59",
+      "date": "2026-10-24",
+      "headline": "v0.2.59 - PracticeMachine launch feel polish",
+      "summary": "A larger initial interaction area and fast-launch, slower-descent timing along the existing high arcs.",
+      "categories": [
+        {
+          "name": "PracticeMachine prototype",
+          "changes": [
+            "PRACTICE MACHINE: Initial interaction footprint expands from 2x2 to 3x3 meters, preserving its center, height, vertical tolerance, interaction logic and the later Practice Position.",
+            "TARGET MOTION: Targets launch faster and ease into a slower final half using a smooth distance-based clock. Equal quarters of the unchanged arc take 0.450, 0.600, 0.975 and 0.975 seconds, totaling exactly three seconds.",
+            "PRESERVED: Single/double/triple rises remain 10m, 11m each and 12/10/12m. Endpoints, hit registration, scoring, target counts, 2.5-second initial delay, all-targets-resolved gating and one-second next-group wait remain unchanged. Thrower motion and combat balance are untouched."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-58",
       "version": "0.2.58",
       "date": "2026-10-24",
