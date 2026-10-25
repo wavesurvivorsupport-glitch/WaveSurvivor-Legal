@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-2-62",
+      "version": "0.2.62",
+      "date": "2026-10-25",
+      "headline": "v0.2.62 - District 5 Thrower suppression and reboot",
+      "summary": "D5 siege Throwers become persistent tactical threats: disable them temporarily, watch the warning, and preserve their state through resume.",
+      "categories": [
+        {
+          "name": "D5 prototype lifecycle",
+          "changes": [
+            "D5 THROWERS: The four authored siege stations now shut down in place at zero HP instead of permanently dying. Inert bodies dim, stop attacking, and leave hostile targeting/minimap registries; collision, outline and health-bar presentation return on activation.",
+            "PROTOTYPE REBOOT: From Wave 2 onward, shutdown lasts 60 gameplay seconds with an orange warning during the final five. An eligible reboot restores full authored HP and the existing Normal-ready, one-second opening. Intermission expiry waits without creating a payload.",
+            "WAVE RULES: Wave 1 enables A/B while C/D remain dormant; disabled Wave-1 stations stay down. Wave 2 explicitly resets all four to full HP and primes them once. Final Wave preserves current HP, shutdown states and timers.",
+            "OWNERSHIP / REWARDS: Shutdown retires only uncommitted held preparation; released Normals remain legitimate enemies. Station shutdown never emits a death or kill/XP/achievement credit, preventing repeatable permanent-reward farming. Terminal siege states cancel reboot warnings and activation.",
+            "SUSPEND / ISOLATION: Per-slot lifecycle, HP, exact remaining time and phase permission restore alongside canonical preparation/payload ownership without extra priming. Legacy missing station bodies restore inert. D2 Throwers retain permanent death; siege quotas, Core HP, enemy balance and rewards are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-61",
       "version": "0.2.61",
       "date": "2026-10-25",
