@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-2-61",
+      "version": "0.2.61",
+      "date": "2026-10-25",
+      "headline": "v0.2.61 - District 5 siege presentation polish",
+      "summary": "Readable Core health and Thrower states, distinct wave transitions and the established final-wave warning.",
+      "categories": [
+        {
+          "name": "Chapter 1 District 5 presentation",
+          "changes": [
+            "D5 PRESENTATION: The opening clear now leads through AREA SECURED, ARCHIVE CORE FOUND, DEFEND THE CORE and WAVE 1 using the saved siege clock, without stacked legacy Core announcements.",
+            "WAVE TRANSITIONS: Each cleared wave gives 2.5 seconds of breathing room. WAVE 2: THROWERS ACTIVATED highlights all four stations; the familiar half-second red WARNING precedes FINAL WAVE. Wave titles get a 0.75-second lead before mobile spawn opportunities.",
+            "CORE READABILITY: Canonical Core HP stays visible in a dedicated top-center panel, with separated A/B/C/D status segments showing dormant, active HP, shutdown and reboot states. Temporary shutdown never looks like permanent defeat.",
+            "ENDING / RESUME: CORE SECURED retains the existing completion flow after legitimate cleanup. Failure clears pending announcements, warning and station HUD; saved title/intermission/warning progress resumes without replaying completed beats.",
+            "PRESERVED: Wave quotas, final 24-Hound and 12-direct-Normal pressure, stats, authored poses, targeting, shutdown/reboot rules, rewards, minimap and D1-D4 gameplay remain unchanged. Prototype presentation awaits manual feel testing."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-60",
       "version": "0.2.60",
       "date": "2026-10-25",
