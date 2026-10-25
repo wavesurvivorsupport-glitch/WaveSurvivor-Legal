@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-2-65",
+      "version": "0.2.65",
+      "date": "2026-10-26",
+      "headline": "v0.2.65 - Chapter Normal engagement recycling",
+      "summary": "Long-kited Chapter Normals recycle without kill credit while finite encounters retain every unpaid kill.",
+      "categories": [
+        {
+          "name": "Chapter enemy engagement",
+          "changes": [
+            "CHAPTER NORMALS: First engagement within 15 meters of a living player starts one 20-second gameplay timer. Leaving range or changing targets never resets it. No enemy countdown is shown.",
+            "SILENT RECYCLING: A living Normal that times out retires without XP, kill, achievement or objective credit. Hounds, Throwers, bosses and objectives are excluded.",
+            "FINITE ENCOUNTERS: The unpaid kill slot stays owned until a fresh Normal replaces it at a valid authored source. Unsafe replacements wait safely; original opening, ambush and direct-Normal quotas remain required.",
+            "PRESSURE / PAYLOADS: Open pressure frees its active slot and uses existing refill cadence without backlog. Held, preparing and airborne payloads cannot start engagement; independent landed Normals can. Cleanup survivors retain their legitimate kill obligation.",
+            "CONTINUE: Started timers, remaining time and pending finite replacements persist through Chapter suspension. Resume neither refreshes engaged enemies to 20 seconds nor duplicates replacements. Landed payloads retain their pressure role instead of becoming direct-spawn enemies.",
+            "PRESERVED: Existing Normal district scaling, Hounds, Throwers, player stats, progression, D1 pressure tiers, encounter quotas and authored source safety rules remain unchanged by recycling."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-64",
       "version": "0.2.64",
       "date": "2026-10-26",
