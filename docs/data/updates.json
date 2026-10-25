@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-63",
+      "version": "0.2.63",
+      "date": "2026-10-26",
+      "headline": "v0.2.63 - District 1 Communications placement cleanup",
+      "summary": "Communications uses the latest central authored position, with matching repair, waypoint and minimap guidance.",
+      "categories": [
+        {
+          "name": "Chapter 1 District 1 placement",
+          "changes": [
+            "D1 PLACEMENT: REPAIR COMMUNICATIONS moves from the edge to the developer's current centrally authored SpawnPoint position. The manually moved marker is preserved and saved; enemy spawn sources stay in place.",
+            "ZONE / GUIDANCE: The same stationary 5x5-meter repair zone supplies the trigger, visible floor area, world waypoint, distance and cyan minimap outline. Existing three-meter nearby waypoint suppression and the topmost player arrow remain intact.",
+            "CONTINUE: Existing saves retain repair progress and encounter state while restoring the current authored location instead of obsolete saved zone coordinates or sizes. No save format or persistent progression changes.",
+            "PRESERVED: The ten-Normal opening, INITIAL THREAT CLEARED, 0-50 repair, escalating pressure, survivor cleanup, Finalize Repairs and completion flow remain unchanged. This update does not change stats, counts, pacing, rewards, lighting or other Districts."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-62",
       "version": "0.2.62",
       "date": "2026-10-25",
