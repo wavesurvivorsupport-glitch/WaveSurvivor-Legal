@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-2-64",
+      "version": "0.2.64",
+      "date": "2026-10-26",
+      "headline": "v0.2.64 - Chapter progression, delivery pressure and siege polish",
+      "summary": "Retire permanent Movement Speed with a one-time refund, scale Chapter Normals by encounter, sustain D3 delivery pressure and clarify D5 pacing and colors.",
+      "categories": [
+        {
+          "name": "Chapter prototype progression and presentation",
+          "changes": [
+            "STATS PROTOTYPE: Permanent Movement Speed is retired. NewMenu now shows 11 Stats, with no movement purchase, current-bonus text or permanent speed contribution. Compatible older profiles remove those ranks and refund the historic 100 Credits per rank (up to two) exactly once through the canonical atomic profile migration. Other progression remains.",
+            "GATES: Existing 0 / 8 / 16 / 26 / 34 total-rank requirements and Regen/Lifesteal exclusivity remain achievable with the remaining catalog. Authored player movement and explicit temporary/Mastery mechanics remain independent.",
+            "CHAPTER NORMALS: Encounter-owned prototype HP/contact damage now scale by District: D1 60/5, D2 70/6, D3 80/7, D4 90/8, D5 100/9. Movement stays 4.5. Ordinary, pressure, ambush, Thrower-payload and direct Final-Wave Normals inherit their spawning encounter; crossing a boundary does not rescale them.",
+            "D3 FINAL DELIVERY: Highest-tier pressure continues during final travel and FINAL DELIVERY 0/10: Normal opportunities every 2 seconds, Hounds every 8 seconds, active caps 12/3. At 10/10 new pressure stops, existing survivors remain, then the authored gate/warning leads to the unchanged finite 15-Normal + 5-Hound ambush.",
+            "SHARED WARNING: D3 and D5 use two readable red pulses: 0.35 seconds red, 0.25 clear, 0.35 red and 0.35 settle, totaling 1.30 seconds with smooth edges. Existing saved phase/timer progress resumes without restarting the warning or accumulating spawn backlog.",
+            "D5 PACING / COLORS: Wave 1 uses 10 Hounds at 3-second opportunities, cap 4, with A/B unchanged. Wave 2 and Final quotas/cadence remain. Core model/HP uses gold, active stations magenta, shutdown neutral gray, reboot orange and warning/failure red. General navigation retains its colors. These are prototype values; grenade/Bullet Rain damage, other enemy stats, Core stats, shutdown timing and rewards are unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-63",
       "version": "0.2.63",
       "date": "2026-10-26",
