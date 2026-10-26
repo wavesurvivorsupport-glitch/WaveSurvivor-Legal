@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-2-66",
+      "version": "0.2.66",
+      "date": "2026-10-26",
+      "headline": "v0.2.66 - D1 final pressure and Primary balance",
+      "summary": "Slightly ease the final D1 repair tier, clarify survivor cleanup, widen Normal engagement and balance Primary Mastery and Lifesteal.",
+      "categories": [
+        {
+          "name": "Chapter and DPS balance",
+          "changes": [
+            "D1 FINAL PRESSURE: The 40-50 Communications repair tier now spawns Normals every 1.15 seconds instead of 1 second. Earlier 4 / 3 / 2 / 1.5-second tiers, the ten-Normal opening, 5x5 repair zone, enemy stats and active cap remain unchanged.",
+            "D1 CLEANUP: Reaching 50 stops new Communications pressure. DEFEAT ENEMIES stays visible in the tracker while owned survivors or unpaid replacement slots remain; FINALIZE REPAIRS follows only after genuine cleanup. No survivors means immediate Finalize Repairs.",
+            "NORMAL RECYCLING: Engagement begins within 30 meters instead of 15. The same irreversible 20 gameplay-second timer continues outside range. Retirement grants no kill or XP credit; finite replacements start at full spawning-District HP, damage and speed with a fresh engagement clock (D3 80/80 HP; D5 100/100 HP). Hounds, Throwers and bosses remain excluded.",
+            "DPS PRIMARY MASTERY: Weapon Damage now grants +2 main Primary damage instead of +5. Twin/Triple auxiliary damage remains rounded 80% of starting base damage, excluding permanent AD and the Mastery damage bonus. Fire Rate nodes, projectile counts, base damage, permanent Stats and crit rules remain unchanged.",
+            "PRIMARY LIFESTEAL: Only the main projectile of each Primary attack contributes actual damage toward Lifesteal. Twin/Triple auxiliary projectiles keep their damage and crit rules but provide zero healing, including Enemy Tracker projectiles. Micro-Grenade, Bullet Rain and other damage-source healing remain unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-65",
       "version": "0.2.65",
       "date": "2026-10-26",
