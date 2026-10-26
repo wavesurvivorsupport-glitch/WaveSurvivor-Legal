@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-68",
+      "version": "0.2.68",
+      "date": "2026-10-26",
+      "headline": "v0.2.68 - Chapter trigger visibility and enemy visual detail",
+      "summary": "Hide Chapter transition helper meshes, restore neutral D5 Throwers and recover authored enemy surface detail while retaining the gold Core.",
+      "categories": [
+        {
+          "name": "Chapter visual cleanup",
+          "changes": [
+            "CHAPTER TRIGGERS: District entry and checkpoint helper meshes stay invisible from startup, including D3 and D4. Their trigger detection and physical gates remain functional.",
+            "D5 THROWERS: Active bodies restore their authored neutral materials after activation and reboot. Active station HUD/status remains magenta; D2 keeps its normal body colors. Core model and Core HP retain gold accents.",
+            "ENEMY DETAIL: Restore authored normal-map detail on Normals, Hounds and Throwers, with correct linear normal-texture imports and smooth trilinear mip transitions on their body textures.",
+            "TARGETED QUALITY: Texture sizes and mip bias stay unchanged, mipmaps remain enabled, and no global LOD or quality setting is raised. Gameplay balance, targeting, spawns and siege mechanics are unchanged by this visual cleanup."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-67",
       "version": "0.2.67",
       "date": "2026-10-26",
