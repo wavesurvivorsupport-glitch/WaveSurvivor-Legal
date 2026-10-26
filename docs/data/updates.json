@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-2-67",
+      "version": "0.2.67",
+      "date": "2026-10-26",
+      "headline": "v0.2.67 - Practice motion and District 3 ambush flow",
+      "summary": "Smooth Practice target deceleration and a saved, player-triggered District 3 finale with the original Chapter warning.",
+      "categories": [
+        {
+          "name": "Chapter practice and delivery polish",
+          "changes": [
+            "D2 PRACTICE: Target speed now eases continuously from fast launch into slower descent using one smooth clock. Flights stay three seconds with the same paths, rises, target groups and scoring.",
+            "D3 DELIVERY: Completing Final Delivery opens the forward route and waits for the authored Ambush Trigger. Proceeding across the trigger starts WARNING, then SURVIVE THE AMBUSH; delivery completion alone no longer starts the ambush.",
+            "D3 PRESSURE: Final travel and delivery retain two-second Normal and eight-second Hound opportunities with caps 12/3. Unsafe candidate positions now continue the bounded search through other authored sources. At 10/10 new pressure stops and existing survivors remain.",
+            "D3 WARNING: Restored the original Chapter two-second red cosine warning from the pre-v0.2.64 implementation. D5 keeps its current presentation.",
+            "D3 CONTINUE: Route-open waiting, trigger crossing, warning progress and finite ambush ownership persist separately. Door closure waits for safe clearance; all owned survivors must be defeated before D3 secures. Current authored delivery and trigger placements are preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-66",
       "version": "0.2.66",
       "date": "2026-10-26",
