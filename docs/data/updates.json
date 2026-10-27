@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-2-69",
+      "version": "0.2.69",
+      "date": "2026-10-27",
+      "headline": "v0.2.69 - D5 siege pacing and station durability",
+      "summary": "Stronger siege stations, paired early-wave Hounds, clearer intermissions and one Final Warning announcement preserve the chaotic Final Wave.",
+      "categories": [
+        {
+          "name": "District 5 Core siege polish",
+          "changes": [
+            "D5 THROWER DURABILITY: Siege stations now have 750 HP, up from the actual Chapter value of 500. D2 Throwers stay at 500. Shutdown at zero, the 60-second reboot clock, full-health reboot, primed opening and existing station roles remain intact.",
+            "D5 EARLY WAVES: Wave 1 delivers 10 Hounds in pairs on four-second opportunities with cap 4. Wave 2 delivers 18 in pairs on four-second opportunities with cap 6. Partial pairs use only available slots; capped or unsafe opportunities never build a backlog.",
+            "D5 INTERMISSIONS: The breathing window is now 3.5 seconds between Wave 1 and Wave 2, and before the Final Warning. Core HP and shutdown progress carry through; stations cannot begin new payload cycles during the break.",
+            "D5 FINAL WARNING: Two red visual pulses now accompany one textual WARNING in the objective notification, followed by FINAL WAVE. The red overlay no longer repeats the word. Existing D5 warning saves retain their exact pulse progress; D3 warning presentation is unchanged.",
+            "D5 CLEANUP / FINAL: Waves advance as soon as quotas and legitimate committed/mobile cleanup are resolved, without waiting on empty stationary cycle state. Final Wave retains 24 Hounds at 2.5 seconds/cap 8 and 12 direct Normals at 2 seconds/cap 6. Core stats, gold Core, gray Thrower bodies, magenta status, orange reboot, targeting and rewards remain unchanged.",
+            "D5 CONTINUE: Older 500-HP station saves adopt 750 maximum HP while preserving wound proportion and zero-HP shutdown. Rebinding or resuming cannot multiply durability, restart the reboot clock or create extra payloads."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-68",
       "version": "0.2.68",
       "date": "2026-10-26",
