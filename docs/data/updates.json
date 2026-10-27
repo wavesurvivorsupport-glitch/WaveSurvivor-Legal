@@ -1,6 +1,26 @@
 {
   "updates": [
     {
+      "id": "v0-2-71",
+      "version": "0.2.71",
+      "date": "2026-10-27",
+      "headline": "v0.2.71 - Sliding route doors and District 3 gameplay",
+      "summary": "Slide into District 3, earn a calm final delivery through cleanup, and face a stronger hidden ambush with pressure from multiple directions.",
+      "categories": [
+        {
+          "name": "Chapter route and encounter polish",
+          "changes": [
+            "D2 ROUTE DOORS: Securing District 2 starts the existing 1.5-second slide on both outgoing and District 3 entrance doors. Navigation and progression keep their existing timing; Continue may restore the open route directly.",
+            "D3 FINAL DELIVERY: Supplies reaching the authored final point stop new pressure. Clear the remaining attackers first, shown as DEFEAT ENEMIES with a remaining count, then occupy FINAL DELIVERY for a calm ten-second hold.",
+            "D3 SURPRISE: Delivery completion now points normally toward DISTRICT 4. The hidden authored crossing still starts the original two-second red warning before SURVIVE THE AMBUSH; the trigger itself receives no navigation marker.",
+            "D3 PRESSURE: The six authored spawn strips use independent, deterministically staggered Normal and Hound clocks. Multiple directions can produce arrivals together while global pressure caps remain 12 Normals and 3 Hounds; unsafe or missed opportunities create no backlog.",
+            "D3 AMBUSH: The finite finale now requires 25 Normals and 8 Hounds, distributed across authored sources. District 3 enemy stats, the opening 20 Normals plus 5 Hounds, supply chase speed and ten/fourteen-second chases remain.",
+            "D3 CONTINUE: Final travel, pre-delivery cleanup, hold progress, District 4 navigation, hidden crossing, warning and finite ambush ownership resume distinctly, including saved strip clocks and no duplicate quota. Historical warning visuals, D2 PracticeMachine and other District gameplay are preserved."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-70",
       "version": "0.2.70",
       "date": "2026-10-27",
