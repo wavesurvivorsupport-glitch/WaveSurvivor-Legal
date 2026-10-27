@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-70",
+      "version": "0.2.70",
+      "date": "2026-10-27",
+      "headline": "v0.2.70 - D1 cleanup count and Normal escape recycling",
+      "summary": "Show living post-repair survivors and recycle engaged Normals faster after players escape, preserving nearby combat lifetime and finite enemy ownership.",
+      "categories": [
+        {
+          "name": "Chapter cleanup and engagement",
+          "changes": [
+            "D1 CLEANUP: After Communications reaches 50/50, DEFEAT ENEMIES shows the actual living cleanup population as N REMAINING. The count updates on death or silent retirement. Repair-pressure survivors retire without replacement during this cleanup; zero survivors unlocks FINALIZE REPAIRS.",
+            "NORMAL ESCAPE: The current 30-meter engagement radius and 20-second lifetime remain. After engagement starts, the timer drains at 1x while within range of any living registered participant and 2x outside the range of all living participants. Re-entry returns to 1x from the current remaining time, without resetting or adding time.",
+            "OWNERSHIP: Retirement still gives no kill, XP, achievement or objective credit. Finite opening and ambush encounters retain unpaid kills and fresh, full-HP replacements with the correct spawning-District stats. Open pressure frees its slot and preserves existing capped cadence without backlog.",
+            "PRESERVED: Pause and suspension keep exact remaining time; non-authoritative callers cannot advance the clock. Hounds, Throwers and bosses remain excluded. No enemy lifetime HUD is added, and other event-bar ratio/countdown layouts remain unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-69",
       "version": "0.2.69",
       "date": "2026-10-27",
