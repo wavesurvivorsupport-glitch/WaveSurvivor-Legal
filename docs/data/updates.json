@@ -1,6 +1,25 @@
 {
   "updates": [
     {
+      "id": "v0-2-73",
+      "version": "0.2.73",
+      "date": "2026-10-29",
+      "headline": "v0.2.73 - District 3 supplies pressure restored",
+      "summary": "Restore District 3 pacing with one shared spawn budget and begin supplies pressure only when the player first enters the zone.",
+      "categories": [
+        {
+          "name": "District 3 pacing regression fix",
+          "changes": [
+            "D3 PRESSURE: Restored one district-wide spawn cadence per enemy type. Across all six strips, Normals spawn every 4 / 3 / 2 seconds and Hounds every 12 / 10 / 8 seconds at 0-20 / 20-40 / 40-60 supplies progress. Global active caps remain 12 Normals and 3 Hounds.",
+            "D3 FIRST ENTRY: Clearing the opening 20 Normals and 5 Hounds reveals MOVE THE SUPPLIES. Ongoing pressure waits until you first enter the supply zone, then starts normal cadence clocks without an initial burst. Leaving pauses objective progress while the started encounter continues.",
+            "D3 SOURCES: Successive opportunities rotate through the six authored spawn strips with the existing safe-placement checks. Capped, blocked or missed opportunities create no backlog. Normal recycling frees a slot for the next scheduled spawn without an immediate extra enemy.",
+            "D3 CONTINUE: Saves retain whether supplies pressure has started, both global clocks and source rotation. Older independent-strip saves migrate to one global budget without a burst; earned supplies progress keeps the encounter active.",
+            "D3 PRESERVED: Supply movement stays 8 m/s with ten- and fourteen-second chases. The authored Final Delivery, enemy cleanup, calm ten-second hold, DISTRICT 4 destination, hidden crossing, historical two-second red warning, final 25 Normals plus 8 Hounds, enemy stats and Normal recycling remain."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-72",
       "version": "0.2.72",
       "date": "2026-10-29",
