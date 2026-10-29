@@ -1,6 +1,23 @@
 {
   "updates": [
     {
+      "id": "v0-2-74",
+      "version": "0.2.74",
+      "date": "2026-10-29",
+      "headline": "v0.2.74 - DPS effect audit and effective movement readout",
+      "summary": "Show temporary Momentum in offline current speed and verify Mastery and permanent Stat effects without changing combat balance.",
+      "categories": [
+        {
+          "name": "DPS progression and feedback",
+          "changes": [
+            "CURRENT SPEED: Offline gameplay now shows the movement controller's effective speed, including temporary DPS Momentum. The buff itself remains +15% for 1.5 gameplay seconds after a completed Dash, refreshing without stacking.",
+            "ABILITY POWER CLARITY: Bullet Rain retains base 7 damage and its 0.2 AP coefficient. AP is rounded to whole bonus damage: AP 0-2 deals 7 per tick; AP 3-5 deals 8 before other modifiers. The Increased Damage Mastery makes those examples 8 and 9. Floating feedback continues to show actual applied damage.",
+            "EFFECT AUDIT: Focused checks verify all 20 DPS Mastery ownership connections, all 11 available permanent Stats, purchases, recovery-path exclusivity, respec and profile reload. No enemy, ability balance, Mastery price, progression gate or card tuning changes. Permanent Movement Speed remains removed."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-73",
       "version": "0.2.73",
       "date": "2026-10-29",
