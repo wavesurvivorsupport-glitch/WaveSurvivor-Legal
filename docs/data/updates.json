@@ -1,6 +1,24 @@
 {
   "updates": [
     {
+      "id": "v0-2-72",
+      "version": "0.2.72",
+      "date": "2026-10-29",
+      "headline": "v0.2.72 - District 1 remaining-enemy progress bar",
+      "summary": "Keep the D1 cleanup count centered inside its existing objective track, with fill that advances through deaths, recycling and Continue.",
+      "categories": [
+        {
+          "name": "District 1 cleanup HUD",
+          "changes": [
+            "D1 CLEANUP BAR: After Communications reaches 50/50, DEFEAT ENEMIES now shows its remaining count centered inside the existing objective progress track. The bar fills as the required survivors disappear, using the actual cleanup starting population rather than a fixed total.",
+            "D1 PROGRESS: Clearing three of ten starting survivors shows 7 REMAINING and 30% fill; clearing five shows 50%. Legitimate deaths and silent pressure-Normal recycling both advance cleanup. Recycling still grants no kill or XP credit, and no new Communications pressure spawns after 50.",
+            "D1 CONTINUE: Cleanup saves retain the original starting total alongside the current remaining actors, so Continue preserves fill and count. Older saves without a starting total derive a truthful baseline from their current required survivors. Pending finite obligations remain counted until genuinely resolved.",
+            "HUD SAFETY: Zero survivors proceeds normally to FINALIZE REPAIRS; an empty initial cleanup skips directly there. Repair Communications 0/50, the initial ten-enemy clear, other District bar layouts, objective guidance, crosshair, pause and the CanvasRenderer dependency remain unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "id": "v0-2-71",
       "version": "0.2.71",
       "date": "2026-10-27",
